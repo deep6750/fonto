@@ -1,0 +1,14 @@
+[
+	{
+		"id": "f6f6036f-9b1a-444b-b4a5-d3974a06a452",
+		"hash": "ca1e5e93e9cdc6e7b3feaa1a773b6237",
+		"author": {
+			"id": "test-user",
+			"displayName": "Test user",
+			"email": "test@email.org",
+			"roleId": "test-user"
+		},
+		"lastModifiedTimestamp": "2024-10-09T09:18:06.214Z",
+		"_editSessionToken": "4be0d95f-0f08-4876-b1d0-c453a0f2699d"
+	}
+]

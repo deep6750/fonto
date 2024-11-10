@@ -1,0 +1,2906 @@
+[
+	{
+		"id": "urn:iec:std:iec:61169-8:::: urn:iec:std:iec:60169-8::::",
+		"label": "",
+		"type": "reference",
+		"metadata": {
+			"number": "IEC 61169–8",
+			"date": null,
+			"title": "Radio-frequency connectors – Part 8: Sectional specification – RF coaxial connectors with inner diameter of outer conductor 6,5 mm (0,256 in) with bayonet lock – Characteristic impedance 50 Ω (type BNC)",
+			"status": "development",
+			"catalogueType": "amendment"
+		}
+	},
+	{
+		"id": "urn:iec:std:cispr:16-1-4::::||amd:1:",
+		"label": "",
+		"type": "reference",
+		"metadata": {
+			"number": "CISPR 16–1–4/AMD1/FRAG1",
+			"date": null,
+			"title": "Specification for radio disturbance and immunity measuring apparatus and methods – Part 1-4: Radio disturbance and immunity measuring apparatus – Antennas and test sites for radiated disturbance measurements",
+			"status": "withdrawn",
+			"catalogueType": "standard"
+		}
+	},
+	{
+		"id": "urn:iec:std:iec:61000-4-20::::",
+		"label": "",
+		"type": "reference",
+		"metadata": {
+			"number": "IEC 61000–4–20",
+			"date": null,
+			"title": "Electromagnetic compatibility (EMC) – Part 4-20: Testing and measurement techniques – Emission and immunity testing in transverse electromagnetic (TEM) waveguides",
+			"status": "withdrawn",
+			"catalogueType": "amendment"
+		}
+	},
+	{
+		"id": "urn:iec:std:iec:60068::::",
+		"label": "",
+		"type": "reference",
+		"metadata": {
+			"number": "IEC 68",
+			"date": null,
+			"title": "Environmental testing",
+			"status": "published",
+			"catalogueType": "standard"
+		}
+	},
+	{
+		"id": "urn:iec:std:iec:60068-1:1988-06:::",
+		"label": "",
+		"type": "reference",
+		"metadata": {
+			"number": "IEC 68‑1",
+			"date": " 1988",
+			"title": "Environmental testing – Part 1: General and guidance",
+			"status": "published",
+			"catalogueType": "standard"
+		}
+	},
+	{
+		"id": "urn:iec:std:iec:60107-1:1997-04:::",
+		"label": "",
+		"type": "reference",
+		"metadata": {
+			"number": "IEC 60107‑1",
+			"date": " 1997",
+			"title": "Methods of measurement on receivers for television broadcast transmissions – Part 1: General considerations – Measurements at radio and video frequencies",
+			"status": "development",
+			"catalogueType": "amendment"
+		}
+	},
+	{
+		"id": "urn:iec:std:iec:60107-2:1997-02:::",
+		"label": "",
+		"type": "reference",
+		"metadata": {
+			"number": "IEC 60107‑2",
+			"date": " 1997",
+			"title": "Methods of measurement on receivers for television broadcast transmissions – Part 2: Audio channels – General methods and methods for monophonic channels",
+			"status": "published",
+			"catalogueType": "corrigendum"
+		}
+	},
+	{
+		"id": "urn:iec:std:itu-r:bt.471-1:1994:::",
+		"label": "",
+		"type": "reference",
+		"metadata": {
+			"number": "ITU-R Recommendation BT.471-1",
+			"date": " 1994",
+			"title": "Nomenclature and description of colour bar signals",
+			"status": "published",
+			"catalogueType": "corrigendum"
+		}
+	},
+	{
+		"id": "urn:iec:std:iec:60034-1::::",
+		"label": "",
+		"type": "reference",
+		"metadata": {
+			"number": "IEC 60034‑1",
+			"date": null,
+			"title": "Rotating electrical machines – Part 1: Rating and performance",
+			"status": "withdrawn",
+			"catalogueType": "standard"
+		}
+	},
+	{
+		"id": "urn:iec:std:iec:60034-8::::",
+		"label": "",
+		"type": "reference",
+		"metadata": {
+			"number": "IEC 60034‑8",
+			"date": null,
+			"title": "Rotating electrical machines – Part 8: Terminal markings and direction of rotation",
+			"status": "withdrawn",
+			"catalogueType": "corrigendum"
+		}
+	},
+	{
+		"id": "urn:iec:std:iec:60034-9::::",
+		"label": "",
+		"type": "reference",
+		"metadata": {
+			"number": "IEC 60034‑9",
+			"date": null,
+			"title": "Rotating electrical machines – Part 9: Noise limits",
+			"status": "development",
+			"catalogueType": "amendment"
+		}
+	},
+	{
+		"id": "urn:iec:std:iec:60034-14::::",
+		"label": "",
+		"type": "reference",
+		"metadata": {
+			"number": "IEC 60034‑14",
+			"date": null,
+			"title": "Rotating electrical machines – Part 14: Mechanical vibration of certain machines with shaft heights 56 mm and higher – Measurement, evaluation and limits of vibration severity",
+			"status": "published",
+			"catalogueType": "standard"
+		}
+	},
+	{
+		"id": "urn:iec:std:iec:60050-131::::",
+		"label": "",
+		"type": "reference",
+		"metadata": {
+			"number": "IEC 60050‑131",
+			"date": null,
+			"title": "International Electrotechnical Vocabulary (IEV) – Chapter 131: Circuit theory",
+			"status": "development",
+			"catalogueType": "amendment"
+		}
+	},
+	{
+		"id": "urn:iec:std:iec:60050-151::::",
+		"label": "",
+		"type": "reference",
+		"metadata": {
+			"number": "IEC 60050‑151",
+			"date": null,
+			"title": "International Electrotechnical Vocabulary (IEV) – Chapter 151: Electrical and magnetic devices",
+			"status": "published",
+			"catalogueType": "amendment"
+		}
+	},
+	{
+		"id": "urn:iec:std:iec:60050-221::::",
+		"label": "",
+		"type": "reference",
+		"metadata": {
+			"number": "IEC 60050‑221",
+			"date": null,
+			"title": "International Electrotechnical Vocabulary (IEV) – Chapter 221: Magnetic materials and components",
+			"status": "published",
+			"catalogueType": "amendment"
+		}
+	},
+	{
+		"id": "urn:iec:std:iec:60050-411::::",
+		"label": "",
+		"type": "reference",
+		"metadata": {
+			"number": "IEC 60050‑411",
+			"date": null,
+			"title": "International Electrotechnical Vocabulary (IEV) – Chapter 411: Rotating machines",
+			"status": "development",
+			"catalogueType": "corrigendum"
+		}
+	},
+	{
+		"id": "urn:iec:std:iec:60050-811::::",
+		"label": "",
+		"type": "reference",
+		"metadata": {
+			"number": "IEC 60050‑811",
+			"date": null,
+			"title": "International Electrotechnical Vocabulary (IEV) – Chapter 811: Electric traction",
+			"status": "development",
+			"catalogueType": "standard"
+		}
+	},
+	{
+		"id": "urn:iec:std:iec:60085::::",
+		"label": "",
+		"type": "reference",
+		"metadata": {
+			"number": "IEC 60085",
+			"date": null,
+			"title": "Thermal evaluation and classification of electrical insulation",
+			"status": "withdrawn",
+			"catalogueType": "amendment"
+		}
+	},
+	{
+		"id": "urn:iec:std:iec:60850::::",
+		"label": "",
+		"type": "reference",
+		"metadata": {
+			"number": "IEC 60850",
+			"date": null,
+			"title": "Railway applications – Supply voltages of traction systems",
+			"status": "development",
+			"catalogueType": "amendment"
+		}
+	},
+	{
+		"id": "urn:iec:std:iec:62498-1::::",
+		"label": "",
+		"type": "reference",
+		"metadata": {
+			"number": "IEC 62498‑1",
+			"date": null,
+			"title": "Railway applications – Environmental conditions for equipment – Part 1: Equipment on board rolling stock",
+			"status": "published",
+			"catalogueType": "standard"
+		}
+	},
+	{
+		"id": "urn:iec:std:iec:60034-2-1::::",
+		"label": "",
+		"type": "reference",
+		"metadata": {
+			"number": "IEC 60034‑2‑1",
+			"date": null,
+			"title": "Rotating electrical machines – Part 2: Standard methods for determining losses and efficiency from tests (excluding machines for traction vehicles)",
+			"status": "published",
+			"catalogueType": "amendment"
+		}
+	},
+	{
+		"id": "urn:iec:std:iec:60034-17::::",
+		"label": "",
+		"type": "reference",
+		"metadata": {
+			"number": "IEC 60034‑17",
+			"date": null,
+			"title": "Rotating electrical machines – Part 17: Cage induction motors when fed from converters – Application guide",
+			"status": "development",
+			"catalogueType": "standard"
+		}
+	},
+	{
+		"id": "urn:iec:std:iec:60404-8-1::::",
+		"label": "",
+		"type": "reference",
+		"metadata": {
+			"number": "IEC 60404‑8‑1",
+			"date": null,
+			"title": "Magnetic materials – Part 8-1: Specifications for individual materials – Magnetically hard materials",
+			"status": "development",
+			"catalogueType": "standard"
+		}
+	},
+	{
+		"id": "urn:iec:std:iec:61260::::",
+		"label": "",
+		"type": "reference",
+		"metadata": {
+			"number": "IEC 61260",
+			"date": null,
+			"title": "Electro acoustics – Octave-band and fractional-octave-band filters",
+			"status": "withdrawn",
+			"catalogueType": "corrigendum"
+		}
+	},
+	{
+		"id": "urn:iec:std:iec:61287::ser::",
+		"label": "",
+		"type": "reference",
+		"metadata": {
+			"number": "IEC 61287 (all parts)",
+			"date": null,
+			"title": "Railway applications – Power converters installed on board rolling stock",
+			"status": "published",
+			"catalogueType": "amendment"
+		}
+	},
+	{
+		"id": "urn:iec:std:iec:61672::ser::",
+		"label": "",
+		"type": "reference",
+		"metadata": {
+			"number": "IEC 61672 (all parts)",
+			"date": null,
+			"title": "Electroacoustics – Sound level meters",
+			"status": "withdrawn",
+			"catalogueType": "amendment"
+		}
+	},
+	{
+		"id": "urn:iec:std:iso:3741:2010:::",
+		"label": "",
+		"type": "reference",
+		"metadata": {
+			"number": "ISO 3741",
+			"date": "2010",
+			"title": "Acoustics – Determination of sound power levels and sound energy levels of noise sources using sound pressure – Precision methods for reverberation test rooms",
+			"status": "withdrawn",
+			"catalogueType": "corrigendum"
+		}
+	},
+	{
+		"id": "urn:iec:std:iso:3743-1::::",
+		"label": "",
+		"type": "reference",
+		"metadata": {
+			"number": "ISO 3743‑1",
+			"date": null,
+			"title": "Acoustics – Determination of sound power levels and sound energy levels of noise sources using sound pressure – Engineering methods for small, movable sources in reverberant fields – Part 1: Comparison method for hard-walled test rooms",
+			"status": "published",
+			"catalogueType": "standard"
+		}
+	},
+	{
+		"id": "urn:iec:std:iso:3743-2:1994:::",
+		"label": "",
+		"type": "reference",
+		"metadata": {
+			"number": "ISO 3743‑2",
+			"date": "1994",
+			"title": "Acoustics – Determination of sound power levels of noise sources using sound pressure – Engineering methods for small, movable sources in reverberant fields – Part 2: Methods for special reverberation test rooms",
+			"status": "development",
+			"catalogueType": "amendment"
+		}
+	},
+	{
+		"id": "urn:iec:std:iso:3744:2010:::",
+		"label": "",
+		"type": "reference",
+		"metadata": {
+			"number": "ISO 3744",
+			"date": "2010",
+			"title": "Acoustics – Determination of sound power levels and sound energy levels of noise sources using sound pressure – Engineering methods for an essentially free field over a reflecting plane",
+			"status": "published",
+			"catalogueType": "amendment"
+		}
+	},
+	{
+		"id": "urn:iec:std:iso:3745:2012:::",
+		"label": "",
+		"type": "reference",
+		"metadata": {
+			"number": "ISO 3745",
+			"date": "2012",
+			"title": "Acoustics – Determination of sound power levels and sound energy levels of noise sources using sound pressure – Precision methods for anechoic and hemi-anechoic rooms",
+			"status": "published",
+			"catalogueType": "corrigendum"
+		}
+	},
+	{
+		"id": "urn:iec:std:iso:3746:2010:::",
+		"label": "",
+		"type": "reference",
+		"metadata": {
+			"number": "ISO 3746",
+			"date": "2010",
+			"title": "Acoustics – Determination of sound power levels and sound energy levels of noise sources using sound pressure – Survey method using an enveloping measurement surface over a reflecting plane",
+			"status": "published",
+			"catalogueType": "standard"
+		}
+	},
+	{
+		"id": "urn:iec:std:iso:3747::::",
+		"label": "",
+		"type": "reference",
+		"metadata": {
+			"number": "ISO 3747",
+			"date": null,
+			"title": "Acoustics – Determination of sound power levels and sound energy levels of noise sources using sound pressure – Engineering/survey methods for use in situ in a reverberant environment",
+			"status": "published",
+			"catalogueType": "amendment"
+		}
+	},
+	{
+		"id": "urn:iec:std:iso:9614-1:1993:::",
+		"label": "",
+		"type": "reference",
+		"metadata": {
+			"number": "ISO 9614‑1",
+			"date": "1993",
+			"title": "Acoustics – Determination of sound power levels of noise sources using sound intensity – Part 1: Measurement at discrete points",
+			"status": "development",
+			"catalogueType": "standard"
+		}
+	},
+	{
+		"id": "urn:iec:std:iso:9614-2:1996:::",
+		"label": "",
+		"type": "reference",
+		"metadata": {
+			"number": "ISO 9614‑2",
+			"date": "1996",
+			"title": "Acoustics – Determination of sound power levels of noise sources using sound intensity – Part 2: Measurement by scanning",
+			"status": "development",
+			"catalogueType": "corrigendum"
+		}
+	},
+	{
+		"id": "urn:iec:std:en:12163::::",
+		"label": "",
+		"type": "reference",
+		"metadata": {
+			"number": "EN 12163",
+			"date": null,
+			"title": "Copper and copper alloys – Rod for general purposes",
+			"status": "withdrawn",
+			"catalogueType": "corrigendum"
+		}
+	},
+	{
+		"id": "urn:iec:std:en:10088-1::::",
+		"label": "",
+		"type": "reference",
+		"metadata": {
+			"number": "EN 10088‑1",
+			"date": null,
+			"title": "Stainless steels – Part 1: List of stainless steels",
+			"status": "withdrawn",
+			"catalogueType": "standard"
+		}
+	},
+	{
+		"id": "urn:iec:std:iec:60296::::",
+		"label": "",
+		"type": "reference",
+		"metadata": {
+			"number": "IEC 60296",
+			"date": null,
+			"title": "Fluids for electrotechnical applications – Unused mineral insulating oils for transformers and switchgear",
+			"status": "development",
+			"catalogueType": "standard"
+		}
+	},
+	{
+		"id": "urn:iec:std:iec:60475:2011-10:::",
+		"label": "",
+		"type": "reference",
+		"metadata": {
+			"number": "IEC 60475",
+			"date": "2011",
+			"title": "Method of sampling insulating liquids",
+			"status": "development",
+			"catalogueType": "standard"
+		}
+	},
+	{
+		"id": "urn:iec:std:iec:60599::::",
+		"label": "",
+		"type": "reference",
+		"metadata": {
+			"number": "IEC 60599",
+			"date": null,
+			"title": "Mineral oil-impregnated electrical equipment in service – Guide to the interpretation of dissolved and free gases analysis",
+			"status": "published",
+			"catalogueType": "amendment"
+		}
+	},
+	{
+		"id": "urn:iec:std:iso:5725::ser::",
+		"label": "",
+		"type": "reference",
+		"metadata": {
+			"number": "ISO 5725 (all parts)",
+			"date": null,
+			"title": "Accuracy (trueness and precision) of measurement methods and results",
+			"status": "development",
+			"catalogueType": "standard"
+		}
+	},
+	{
+		"id": "urn:iec:std:iso-iec:17025::::",
+		"label": "",
+		"type": "reference",
+		"metadata": {
+			"number": "ISO/IEC 17025",
+			"date": null,
+			"title": "General requirements for the competence of testing and calibration laboratories",
+			"status": "withdrawn",
+			"catalogueType": "corrigendum"
+		}
+	},
+	{
+		"id": "urn:iec:std:iso:3675::::",
+		"label": "",
+		"type": "reference",
+		"metadata": {
+			"number": "ISO 3675",
+			"date": null,
+			"title": "Crude petroleum and liquid petroleum products – Laboratory determination of density – Hydrometer method",
+			"status": "published",
+			"catalogueType": "standard"
+		}
+	},
+	{
+		"id": "urn:iec:std:iec:60601-1-2:2007-03:::",
+		"label": "",
+		"type": "reference",
+		"metadata": {
+			"number": "IEC 60601‑1‑2",
+			"date": "2007",
+			"title": "Medical electrical equipment – Part 1-2: General requirements for basic safety and essential performance – Collateral standard: Electromagnetic compatibility – Requirements and tests",
+			"status": "development",
+			"catalogueType": "amendment"
+		}
+	},
+	{
+		"id": "urn:iec:std:iec:60601-1:2005-12:::",
+		"label": "",
+		"type": "reference",
+		"metadata": {
+			"number": "IEC 60601‑1",
+			"date": "2005",
+			"title": "Medical electrical equipment – Part 1: General requirements for basic safety and essential performance",
+			"status": "published",
+			"catalogueType": "corrigendum"
+		}
+	},
+	{
+		"id": "urn:iec:std:iec:60364-7-710::::",
+		"label": "",
+		"type": "reference",
+		"metadata": {
+			"number": "IEC 60364‑7‑710",
+			"date": null,
+			"title": "Electrical installations of buildings – Part 7-710: Requirements for special installations or locations – Medical locations",
+			"status": "withdrawn",
+			"catalogueType": "corrigendum"
+		}
+	},
+	{
+		"id": "urn:iec:std:iso:7010:2003:::||amd:3:2007",
+		"label": "",
+		"type": "reference",
+		"metadata": {
+			"number": "Amendment 3 (2007) ISO 7010",
+			"date": "2003",
+			"title": "Graphical symbols – Safety colours and safety signs – Safety signs used in workplaces and public areas",
+			"status": "withdrawn",
+			"catalogueType": "standard"
+		}
+	},
+	{
+		"id": "urn:iec:std:iec:60060-1::::",
+		"label": "",
+		"type": "reference",
+		"metadata": {
+			"number": "IEC 60060‑1",
+			"date": null,
+			"title": "High-voltage test techniques – Part 1: General definitions and test requirements",
+			"status": "withdrawn",
+			"catalogueType": "corrigendum"
+		}
+	},
+	{
+		"id": "urn:iec:std:iec:60060-2::::",
+		"label": "",
+		"type": "reference",
+		"metadata": {
+			"number": "IEC 60060‑2",
+			"date": null,
+			"title": "High-voltage test techniques – Part 2: Measuring systems",
+			"status": "published",
+			"catalogueType": "corrigendum"
+		}
+	},
+	{
+		"id": "urn:iec:std:iec:60212::::",
+		"label": "",
+		"type": "reference",
+		"metadata": {
+			"number": "IEC 60212",
+			"date": null,
+			"title": "Standard conditions for use prior to and during the testing of solid electrical insulating materials",
+			"status": "development",
+			"catalogueType": "corrigendum"
+		}
+	},
+	{
+		"id": "urn:iec:std:iec:60417::::",
+		"label": "",
+		"type": "reference",
+		"metadata": {
+			"number": "IEC 60417",
+			"date": null,
+			"title": "Graphical symbols for use on equipment",
+			"status": "published",
+			"catalogueType": "standard"
+		}
+	},
+	{
+		"id": "urn:iec:std:iec:61318:2007-11:::",
+		"label": "",
+		"type": "reference",
+		"metadata": {
+			"number": "IEC 61318",
+			"date": "2007",
+			"title": "Live working – Conformity assessment applicable to tools, devices and equipment",
+			"status": "withdrawn",
+			"catalogueType": "amendment"
+		}
+	},
+	{
+		"id": "urn:iec:std:iec:61477::::",
+		"label": "",
+		"type": "reference",
+		"metadata": {
+			"number": "IEC 61477",
+			"date": null,
+			"title": "Live working – Minimum requirements for the utilization of tools, devices and equipment",
+			"status": "published",
+			"catalogueType": "amendment"
+		}
+	},
+	{
+		"id": "urn:iec:std:iso:23529::::",
+		"label": "",
+		"type": "reference",
+		"metadata": {
+			"number": "ISO 23529",
+			"date": null,
+			"title": "Rubber – General procedures for preparing and conditioning test pieces for physical test methods",
+			"status": "published",
+			"catalogueType": "amendment"
+		}
+	},
+	{
+		"id": "urn:iec:std:iec:60050::ser::",
+		"label": "",
+		"type": "reference",
+		"metadata": {
+			"number": "IEC 60050 (all parts)",
+			"date": null,
+			"title": "International Electrotechnical Vocabulary",
+			"status": "development",
+			"catalogueType": "amendment"
+		}
+	},
+	{
+		"id": "urn:iec:std:iec:60050-601:1985-10:::",
+		"label": "",
+		"type": "reference",
+		"metadata": {
+			"number": "IEC 60050‑601",
+			"date": "1985",
+			"title": "International Electrotechnical Vocabulary – Chapter 601: Generation, transmission and distribution of electricity – General",
+			"status": "published",
+			"catalogueType": "amendment"
+		}
+	},
+	{
+		"id": "urn:iec:std:iec:60050-604:1987-03:::",
+		"label": "",
+		"type": "reference",
+		"metadata": {
+			"number": "IEC 60050‑604",
+			"date": "1987",
+			"title": "International Electrotechnical Vocabulary – Chapter 604: Generation, transmission and distribution of electricity – Operation",
+			"status": "development",
+			"catalogueType": "corrigendum"
+		}
+	},
+	{
+		"id": "urn:iec:std:iec:60050-651:2014-04:::",
+		"label": "",
+		"type": "reference",
+		"metadata": {
+			"number": "IEC 60050‑651",
+			"date": "2014",
+			"title": "International Electrotechnical Vocabulary – Part 651: Live working 1",
+			"status": "development",
+			"catalogueType": "standard"
+		}
+	},
+	{
+		"id": "urn:iec:std:iec:60743:2013-07:::",
+		"label": "",
+		"type": "reference",
+		"metadata": {
+			"number": "IEC 60743",
+			"date": "2013",
+			"title": "Live working – Terminology for tools, equipment and devices",
+			"status": "withdrawn",
+			"catalogueType": "amendment"
+		}
+	},
+	{
+		"id": "urn:iec:std:iso:37::::",
+		"label": "",
+		"type": "reference",
+		"metadata": {
+			"number": "ISO 37",
+			"date": null,
+			"title": "Rubber, vulcanized or thermoplastic – Determination of tensile stress-strain properties",
+			"status": "development",
+			"catalogueType": "standard"
+		}
+	},
+	{
+		"id": "urn:iec:std:iso:472:2013:::",
+		"label": "",
+		"type": "reference",
+		"metadata": {
+			"number": "ISO 472",
+			"date": "2013",
+			"title": "Plastics – Vocabulary",
+			"status": "published",
+			"catalogueType": "amendment"
+		}
+	},
+	{
+		"id": "urn:iec:std:iso:1817:2011:::",
+		"label": "",
+		"type": "reference",
+		"metadata": {
+			"number": "ISO 1817",
+			"date": "2011",
+			"title": "Rubber, vulcanized or thermoplastic – Determination of the effect of liquids",
+			"status": "development",
+			"catalogueType": "standard"
+		}
+	},
+	{
+		"id": "urn:iec:std:iso:2592::::",
+		"label": "",
+		"type": "reference",
+		"metadata": {
+			"number": "ISO 2592",
+			"date": null,
+			"title": "Determination of flash and fire points – Cleveland open cup method",
+			"status": "development",
+			"catalogueType": "standard"
+		}
+	},
+	{
+		"id": "urn:iec:std:iso:2977::::",
+		"label": "",
+		"type": "reference",
+		"metadata": {
+			"number": "ISO 2977",
+			"date": null,
+			"title": "Petroleum products and hydrocarbon solvents – Determination of aniline point and mixed aniline point",
+			"status": "withdrawn",
+			"catalogueType": "amendment"
+		}
+	},
+	{
+		"id": "urn:iec:std:iso:13997::::",
+		"label": "",
+		"type": "reference",
+		"metadata": {
+			"number": "ISO 13997",
+			"date": null,
+			"title": "Protective clothing – Mechanical properties – Determination of resistance to cutting by sharp objects",
+			"status": "withdrawn",
+			"catalogueType": "amendment"
+		}
+	},
+	{
+		"id": "urn:iec:std:iec:60038::::",
+		"label": "",
+		"type": "reference",
+		"metadata": {
+			"number": "IEC 60038",
+			"date": null,
+			"title": "IEC standard voltages",
+			"status": "development",
+			"catalogueType": "standard"
+		}
+	},
+	{
+		"id": "urn:iec:std:iec:60051::ser::",
+		"label": "",
+		"type": "reference",
+		"metadata": {
+			"number": "IEC 60051 (all parts)",
+			"date": null,
+			"title": "Direct acting indicating analogue electrical measuring instruments and their accessories",
+			"status": "published",
+			"catalogueType": "amendment"
+		}
+	},
+	{
+		"id": "urn:iec:std:iec:60060-1:1989-11:::",
+		"label": "",
+		"type": "reference",
+		"metadata": {
+			"number": "IEC 60060‑1",
+			"date": "1989",
+			"title": "High-voltage test techniques – Part 1: General definitions and test requirements",
+			"status": "withdrawn",
+			"catalogueType": "amendment"
+		}
+	},
+	{
+		"id": "urn:iec:std:iec:60060-2:1994-11:::",
+		"label": "",
+		"type": "reference",
+		"metadata": {
+			"number": "IEC 60060‑2",
+			"date": "1994",
+			"title": "High-voltage test techniques – Part 2: Measuring systems",
+			"status": "development",
+			"catalogueType": "amendment"
+		}
+	},
+	{
+		"id": "urn:iec:std:iec:60068-2-30:2005-08:::",
+		"label": "",
+		"type": "reference",
+		"metadata": {
+			"number": "IEC 60068‑2‑30",
+			"date": "2005",
+			"title": "Environmental testing – Part 2-30: Tests – Test Db: Damp heat, cyclic (12 h + 12 h cycle)",
+			"status": "withdrawn",
+			"catalogueType": "corrigendum"
+		}
+	},
+	{
+		"id": "urn:iec:std:iec:60068-3-4:2001-08:::",
+		"label": "",
+		"type": "reference",
+		"metadata": {
+			"number": "IEC 60068‑3‑4",
+			"date": " 2001",
+			"title": "Environmental testing – Part 3-4: Supporting documentation and guidance – Damp heat tests",
+			"status": "development",
+			"catalogueType": "amendment"
+		}
+	},
+	{
+		"id": "urn:iec:std:iec:60112:2003-01:::",
+		"label": "",
+		"type": "reference",
+		"metadata": {
+			"number": "IEC 60112",
+			"date": "2003",
+			"title": "Method for the determination of the proof and the comparative tracking indices of solid insulating materials",
+			"status": "published",
+			"catalogueType": "standard"
+		}
+	},
+	{
+		"id": "urn:iec:std:iec:60364::ser::",
+		"label": "",
+		"type": "reference",
+		"metadata": {
+			"number": "IEC 60364 (all parts)",
+			"date": null,
+			"title": "Low-voltage electrical installations",
+			"status": "development",
+			"catalogueType": "amendment"
+		}
+	},
+	{
+		"id": "urn:iec:std:iec:60364-4-44:2007-08:::",
+		"label": "",
+		"type": "reference",
+		"metadata": {
+			"number": "IEC 60364‑4‑44",
+			"date": "2007",
+			"title": "Low-voltage electrical installations – Part 4-44: Protection for safety – Protection against voltage disturbances and electromagnetic disturbances",
+			"status": "published",
+			"catalogueType": "amendment"
+		}
+	},
+	{
+		"id": "urn:iec:std:iec:60364-5-53:2001-08:::",
+		"label": "",
+		"type": "reference",
+		"metadata": {
+			"number": "IEC 60364‑5‑53",
+			"date": "2001",
+			"title": "Electrical installations of buildings – Part 5-53: Selection and erection of electrical equipment – Isolation, switching and control",
+			"status": "published",
+			"catalogueType": "corrigendum"
+		}
+	},
+	{
+		"id": "urn:iec:std:iec:60529::::",
+		"label": "",
+		"type": "reference",
+		"metadata": {
+			"number": "IEC 60529",
+			"date": null,
+			"title": "Degrees of protection provided by enclosures (IP Code)",
+			"status": "development",
+			"catalogueType": "amendment"
+		}
+	},
+	{
+		"id": "urn:iec:std:iec:60664-1:2007-04:::",
+		"label": "",
+		"type": "reference",
+		"metadata": {
+			"number": "IEC 60664‑1",
+			"date": "2007",
+			"title": "Insulation coordination for equipment within low-voltage systems – Part 1: Principles, requirements and tests",
+			"status": "published",
+			"catalogueType": "amendment"
+		}
+	},
+	{
+		"id": "urn:iec:std:iec:60695-2-10:2000-10:::",
+		"label": "",
+		"type": "reference",
+		"metadata": {
+			"number": "IEC 60695‑2‑10",
+			"date": "2000",
+			"title": "Fire hazard testing – Part 2-10: Glowing/hot-wire based test methods – Glow-wire apparatus and common test procedure",
+			"status": "published",
+			"catalogueType": "amendment"
+		}
+	},
+	{
+		"id": "urn:iec:std:iec:60884-1::::",
+		"label": "",
+		"type": "reference",
+		"metadata": {
+			"number": "IEC 60884‑1",
+			"date": null,
+			"title": "Plugs and socket-outlets for household and similar purposes – Part 1: General requirements",
+			"status": "withdrawn",
+			"catalogueType": "standard"
+		}
+	},
+	{
+		"id": "urn:iec:std:iec:61009-1::::",
+		"label": "",
+		"type": "reference",
+		"metadata": {
+			"number": "IEC 61009‑1",
+			"date": null,
+			"title": "Residual current operated circuit-breakers with integral overcurrent protection for household and similar uses (RCBOs) – Part 1: General rules",
+			"status": "published",
+			"catalogueType": "standard"
+		}
+	},
+	{
+		"id": "urn:iec:std:iec:61543:1995-04:::",
+		"label": "",
+		"type": "reference",
+		"metadata": {
+			"number": "IEC 61543",
+			"date": "1995",
+			"title": "Residual current-operated protective devices (RCDs) for household and similar use – Electromagnetic compatibility",
+			"status": "published",
+			"catalogueType": "corrigendum"
+		}
+	},
+	{
+		"id": "urn:iec:std:cispr:14-1:2005-11:::",
+		"label": "",
+		"type": "reference",
+		"metadata": {
+			"number": "CISPR 14‑1",
+			"date": "2005",
+			"title": "Electromagnetic compatibility – Requirements for household appliances, electric tools and similar apparatus – Part 1: Emission",
+			"status": "published",
+			"catalogueType": "amendment"
+		}
+	},
+	{
+		"id": "urn:iec:std:iec:60050-441:1984-01:::",
+		"label": "",
+		"type": "reference",
+		"metadata": {
+			"number": "IEC 60050‑441",
+			"date": "1984",
+			"title": "International Electrotechnical Vocabulary – Chapter 441: Switchgear, controlgear and fuses",
+			"status": "development",
+			"catalogueType": "standard"
+		}
+	},
+	{
+		"id": "urn:iec:std:iec:60269-1:2006-11:::",
+		"label": "",
+		"type": "reference",
+		"metadata": {
+			"number": "IEC 60269‑1",
+			"date": "2006",
+			"title": "Low-voltage fuses – Part 1: General requirements",
+			"status": "withdrawn",
+			"catalogueType": "standard"
+		}
+	},
+	{
+		"id": "urn:iec:std:iec:60947-1:2007-06:::",
+		"label": "",
+		"type": "reference",
+		"metadata": {
+			"number": "IEC 60947‑1",
+			"date": "2007",
+			"title": "Low-voltage switchgear and controlgear – Part 1: General rules",
+			"status": "withdrawn",
+			"catalogueType": "amendment"
+		}
+	},
+	{
+		"id": "urn:iec:std:iec:60068-2-75:1997-08:::",
+		"label": "",
+		"type": "reference",
+		"metadata": {
+			"number": "IEC 60068‑2‑75",
+			"date": "1997",
+			"title": "Environmental testing – Part 2-75: Tests – Test Eh: Hammer tests",
+			"status": "withdrawn",
+			"catalogueType": "amendment"
+		}
+	},
+	{
+		"id": "urn:iec:std:iec:60364-5-52:2001-08:::",
+		"label": "",
+		"type": "reference",
+		"metadata": {
+			"number": "IEC 60364‑5‑52",
+			"date": "2001",
+			"title": "Electrical installations of buildings – Part 5-52: Selection and erection of electrical equipment – Wiring systems",
+			"status": "development",
+			"catalogueType": "amendment"
+		}
+	},
+	{
+		"id": "urn:iec:std:iec:60695-2-11:2000-10:::",
+		"label": "",
+		"type": "reference",
+		"metadata": {
+			"number": "IEC 60695‑2‑11",
+			"date": "2000",
+			"title": "Fire hazard testing – Part 2-11:Glowing/hot-wire based test methods – Glow-wire flammability test method for end-products",
+			"status": "published",
+			"catalogueType": "amendment"
+		}
+	},
+	{
+		"id": "urn:iec:std:iec:60695-11-2:2003-07:::",
+		"label": "",
+		"type": "reference",
+		"metadata": {
+			"number": "IEC 60695‑11‑2",
+			"date": "2003",
+			"title": "Fire hazard testing – Part 11-2: Test flames – 1 kW nominal pre-mixed flame – Apparatus, confirmatory test arrangement and guidance",
+			"status": "published",
+			"catalogueType": "amendment"
+		}
+	},
+	{
+		"id": "urn:iec:std:iso:1461:1999:::",
+		"label": "",
+		"type": "reference",
+		"metadata": {
+			"number": "ISO 1461",
+			"date": "1999",
+			"title": "Hot dip galvanized coatings on fabricated iron and steel articles – Specifications and test methods",
+			"status": "published",
+			"catalogueType": "corrigendum"
+		}
+	},
+	{
+		"id": "urn:iec:std:iso:2178:1982:::",
+		"label": "",
+		"type": "reference",
+		"metadata": {
+			"number": "ISO 2178",
+			"date": "1982",
+			"title": "Non-magnetic coatings on magnetic substrates – Measurement of coating thickness – Magnetic method",
+			"status": "withdrawn",
+			"catalogueType": "amendment"
+		}
+	},
+	{
+		"id": "urn:iec:std:iso:2808:1997:::",
+		"label": "",
+		"type": "reference",
+		"metadata": {
+			"number": "ISO 2808",
+			"date": "1997",
+			"title": "Paints and varnishes – Determination of film thickness",
+			"status": "published",
+			"catalogueType": "corrigendum"
+		}
+	},
+	{
+		"id": "urn:iec:std:iso:4046::ser::",
+		"label": "",
+		"type": "reference",
+		"metadata": {
+			"number": "ISO 4046 (all parts)",
+			"date": null,
+			"title": "Paper, board, pulp and related terms – Vocabulary",
+			"status": "published",
+			"catalogueType": "corrigendum"
+		}
+	},
+	{
+		"id": "urn:iec:std:iso:9227:1990:::",
+		"label": "",
+		"type": "reference",
+		"metadata": {
+			"number": "ISO 9227",
+			"date": "1990",
+			"title": "Corrosion tests in artificial atmospheres – Salt spray tests",
+			"status": "development",
+			"catalogueType": "amendment"
+		}
+	},
+	{
+		"id": "urn:iec:std:iso:10289:1999:::",
+		"label": "",
+		"type": "reference",
+		"metadata": {
+			"number": "ISO 10289",
+			"date": "1999",
+			"title": "Methods for corrosion testing of metallic and other inorganic coatings on metallic substrates – Rating of test specimens and manufactured articles subjected to corrosion tests",
+			"status": "withdrawn",
+			"catalogueType": "standard"
+		}
+	},
+	{
+		"id": "urn:iec:std:iec:60093:1980-01:::",
+		"label": "",
+		"type": "reference",
+		"metadata": {
+			"number": "IEC 60093",
+			"date": "1980",
+			"title": "Methods of test for volume resistivity and surface resistivity of solid electrical insulating materials",
+			"status": "published",
+			"catalogueType": "amendment"
+		}
+	},
+	{
+		"id": "urn:iec:std:iec:60364-5-54:2002-06:::",
+		"label": "",
+		"type": "reference",
+		"metadata": {
+			"number": "IEC 60364‑5‑54",
+			"date": "2002",
+			"title": "Electrical installations of buildings – Part 5-54: Selection and erection of electrical equipment – Earthing arrangements, protective conductors and protective bonding conductors",
+			"status": "withdrawn",
+			"catalogueType": "corrigendum"
+		}
+	},
+	{
+		"id": "urn:iec:std:iso:14713:1999:::",
+		"label": "",
+		"type": "reference",
+		"metadata": {
+			"number": "ISO 14713",
+			"date": "1999",
+			"title": "Protection against corrosion of iron and steel in structures – Zinc and aluminium coatings - Guidelines",
+			"status": "withdrawn",
+			"catalogueType": "corrigendum"
+		}
+	},
+	{
+		"id": "urn:iec:std:en:10088-1:1995:::",
+		"label": "",
+		"type": "reference",
+		"metadata": {
+			"number": "EN 10088‑1",
+			"date": "1995",
+			"title": "Stainless steels. List of stainless steels",
+			"status": "development",
+			"catalogueType": "corrigendum"
+		}
+	},
+	{
+		"id": "urn:iec:std:en:10326:2004:::",
+		"label": "",
+		"type": "reference",
+		"metadata": {
+			"number": "EN 10326",
+			"date": "2004",
+			"title": "Continuously hot-dip coated strip and sheet of structural steels – Technical delivery conditions",
+			"status": "published",
+			"catalogueType": "amendment"
+		}
+	},
+	{
+		"id": "urn:iec:std:en:10327:2004:::",
+		"label": "",
+		"type": "reference",
+		"metadata": {
+			"number": "EN 10327",
+			"date": "2004",
+			"title": "Continuously hot-dip coated strip and sheet of low carbon steels for cold forming - Technical delivery conditions",
+			"status": "withdrawn",
+			"catalogueType": "standard"
+		}
+	},
+	{
+		"id": "urn:iec:std:iec:61131-2::::",
+		"label": "",
+		"type": "reference",
+		"metadata": {
+			"number": "IEC 61131‑2",
+			"date": null,
+			"title": "Programmable controllers – Part 2: Equipment requirements and tests",
+			"status": "published",
+			"catalogueType": "amendment"
+		}
+	},
+	{
+		"id": "urn:iec:std:iec:61131-3::::",
+		"label": "",
+		"type": "reference",
+		"metadata": {
+			"number": "IEC 61131‑3",
+			"date": null,
+			"title": "Programmable controllers – Part 3: Programming languages",
+			"status": "development",
+			"catalogueType": "corrigendum"
+		}
+	},
+	{
+		"id": "urn:iec:std:iec:61158-2::::",
+		"label": "",
+		"type": "reference",
+		"metadata": {
+			"number": "IEC 61158‑2",
+			"date": null,
+			"title": "Industrial communication networks – Fieldbus specifications – Part 2: Physical layer specification and service definition",
+			"status": "published",
+			"catalogueType": "amendment"
+		}
+	},
+	{
+		"id": "urn:iec:std:iec:61158-3-2::::",
+		"label": "",
+		"type": "reference",
+		"metadata": {
+			"number": "IEC 61158‑3‑2",
+			"date": null,
+			"title": "Industrial communication networks – Fieldbus specifications – Part 3‑2: Data-link layer service definition – Type 2 elements",
+			"status": "published",
+			"catalogueType": "standard"
+		}
+	},
+	{
+		"id": "urn:iec:std:iec:61158-3-19::::",
+		"label": "",
+		"type": "reference",
+		"metadata": {
+			"number": "IEC 61158‑3‑19",
+			"date": null,
+			"title": "Industrial communication networks – Fieldbus specifications – Part 3-19: Data-link layer service definition – Type 19 elements",
+			"status": "development",
+			"catalogueType": "standard"
+		}
+	},
+	{
+		"id": "urn:iec:std:iec:61158-4-2::::",
+		"label": "",
+		"type": "reference",
+		"metadata": {
+			"number": "IEC 61158‑4‑2",
+			"date": null,
+			"title": "Industrial communication networks – Fieldbus specifications – Part 4-2: Data-link layer protocol specification – Type 2 elements",
+			"status": "published",
+			"catalogueType": "amendment"
+		}
+	},
+	{
+		"id": "urn:iec:std:iec:61158-4-19::::",
+		"label": "",
+		"type": "reference",
+		"metadata": {
+			"number": "IEC 61158‑4‑19",
+			"date": null,
+			"title": "Industrial communication networks – Fieldbus specifications – Part 4-19: Data-link layer protocol specification – Type 19 elements",
+			"status": "published",
+			"catalogueType": "standard"
+		}
+	},
+	{
+		"id": "urn:iec:std:iec:61158-5-2::::",
+		"label": "",
+		"type": "reference",
+		"metadata": {
+			"number": "IEC 61158‑5‑2",
+			"date": null,
+			"title": "Industrial communication networks – Fieldbus specifications – Part 5-2: Application layer service definition – Type 2 elements",
+			"status": "withdrawn",
+			"catalogueType": "amendment"
+		}
+	},
+	{
+		"id": "urn:iec:std:iec:61158-5-19::::",
+		"label": "",
+		"type": "reference",
+		"metadata": {
+			"number": "IEC 61158‑5‑19",
+			"date": null,
+			"title": "Industrial communication networks – Fieldbus specifications – Part 5-19: Application layer service definition – Type 19 elements",
+			"status": "withdrawn",
+			"catalogueType": "corrigendum"
+		}
+	},
+	{
+		"id": "urn:iec:std:iec:61158-6-2::::",
+		"label": "",
+		"type": "reference",
+		"metadata": {
+			"number": "IEC 61158‑6‑2",
+			"date": null,
+			"title": "Industrial communication networks – Fieldbus specifications – Part 6-2: Application layer protocol specification – Type 2 elements",
+			"status": "published",
+			"catalogueType": "standard"
+		}
+	},
+	{
+		"id": "urn:iec:std:iec:61158-6-19::::",
+		"label": "",
+		"type": "reference",
+		"metadata": {
+			"number": "IEC 61158‑6‑19",
+			"date": null,
+			"title": "Industrial communication networks – Fieldbus specifications – Part 6-19: Application layer protocol specification – Type 19 elements",
+			"status": "withdrawn",
+			"catalogueType": "standard"
+		}
+	},
+	{
+		"id": "urn:iec:std:iec:61326-3-1::::",
+		"label": "",
+		"type": "reference",
+		"metadata": {
+			"number": "IEC 61326‑3‑1",
+			"date": null,
+			"title": "Electrical equipment for measurement, control and laboratory use – EMC requirements – Part 3-1: Immunity requirements for safety-related systems and for equipment intended to perform safety-related functions (functional safety) – General industrial applications",
+			"status": "withdrawn",
+			"catalogueType": "corrigendum"
+		}
+	},
+	{
+		"id": "urn:iec:std:iec:61326-3-2::::",
+		"label": "",
+		"type": "reference",
+		"metadata": {
+			"number": "IEC 61326‑3‑2",
+			"date": null,
+			"title": "Electrical equipment for measurement, control and laboratory use – EMC requirements – Part 3-2: Immunity requirements for safety-related systems and for equipment intended to perform safety-related functions (functional safety) – Industrial applications with specified electromagnetic environment",
+			"status": "published",
+			"catalogueType": "corrigendum"
+		}
+	},
+	{
+		"id": "urn:iec:std:iec:61508::ser::",
+		"label": "",
+		"type": "reference",
+		"metadata": {
+			"number": "IEC 61508 (all parts)",
+			"date": null,
+			"title": "Functional safety of electrical/electronic/programmable electronic safety-related systems",
+			"status": "withdrawn",
+			"catalogueType": "standard"
+		}
+	},
+	{
+		"id": "urn:iec:std:iec:61784-1::::",
+		"label": "",
+		"type": "reference",
+		"metadata": {
+			"number": "IEC 61784‑1",
+			"date": null,
+			"title": "Industrial communication networks – Profiles – Part 1: Fieldbus profiles",
+			"status": "withdrawn",
+			"catalogueType": "amendment"
+		}
+	},
+	{
+		"id": "urn:iec:std:iec:61784-2::::",
+		"label": "",
+		"type": "reference",
+		"metadata": {
+			"number": "IEC 61784‑2",
+			"date": null,
+			"title": "Industrial communication networks – Profiles – Part 2: Additional fieldbus profiles for real-time networks based on urn:iec:std:iso-iec:8802-3::::ISO/IEC 8802‑3",
+			"status": "published",
+			"catalogueType": "standard"
+		}
+	},
+	{
+		"id": "urn:iec:std:iec:61784-3::::",
+		"label": "",
+		"type": "reference",
+		"metadata": {
+			"number": "IEC 61784‑3",
+			"date": "—",
+			"title": "Industrial communication networks – Profiles – Part 3: Functional safety fieldbuses – General rules and profile definitions",
+			"status": "withdrawn",
+			"catalogueType": "corrigendum"
+		}
+	},
+	{
+		"id": "urn:iec:std:iec:61784-5-2::::",
+		"label": "",
+		"type": "reference",
+		"metadata": {
+			"number": "IEC 61784‑5‑2",
+			"date": null,
+			"title": "Industrial communication networks – Profiles – Part 5-2: Installation of fieldbuses – Installation profiles for CPF 2",
+			"status": "withdrawn",
+			"catalogueType": "amendment"
+		}
+	},
+	{
+		"id": "urn:iec:std:iec:61918::::",
+		"label": "",
+		"type": "reference",
+		"metadata": {
+			"number": "IEC 61918",
+			"date": null,
+			"title": "Industrial communication networks – Installation of communication networks in industrial premises",
+			"status": "published",
+			"catalogueType": "standard"
+		}
+	},
+	{
+		"id": "urn:iec:std:iso:13849-1:2006:::",
+		"label": "",
+		"type": "reference",
+		"metadata": {
+			"number": "ISO 13849‑1",
+			"date": "2006",
+			"title": "Safety of machinery – Safety-related parts of control systems – Part 1: General principles for design",
+			"status": "development",
+			"catalogueType": "corrigendum"
+		}
+	},
+	{
+		"id": "urn:iec:std:iso:15745-2:2003:::",
+		"label": "",
+		"type": "reference",
+		"metadata": {
+			"number": "ISO 15745‑2",
+			"date": "2003",
+			"title": "Industrial automation systems and integration – Open systems application integration framework – Part 2: Reference description for urn:iec:std:iso:11898::::ISO 11898-based control systems",
+			"status": "development",
+			"catalogueType": "corrigendum"
+		}
+	},
+	{
+		"id": "urn:iec:std:iso:15745-3:2003:::",
+		"label": "",
+		"type": "reference",
+		"metadata": {
+			"number": "ISO 15745‑3",
+			"date": "2003",
+			"title": "Industrial automation systems and integration – Open systems application integration framework – Part 3: Reference description for urn:iec:std:iec:61158::::IEC 61158-based control systems",
+			"status": "development",
+			"catalogueType": "amendment"
+		}
+	},
+	{
+		"id": "urn:iec:std:iso:15745-4:2003:::",
+		"label": "",
+		"type": "reference",
+		"metadata": {
+			"number": "ISO 15745‑4",
+			"date": "2003",
+			"title": "Industrial automation systems and integration – Open systems application integration framework – Part 4: Reference description for Ethernet-based control systems",
+			"status": "development",
+			"catalogueType": "amendment"
+		}
+	},
+	{
+		"id": "urn:iec:std:iec:60204-1::::",
+		"label": "",
+		"type": "reference",
+		"metadata": {
+			"number": "IEC 60204‑1",
+			"date": null,
+			"title": "Safety of machinery – Electrical equipment of machines – Part 1: General requirements",
+			"status": "published",
+			"catalogueType": "corrigendum"
+		}
+	},
+	{
+		"id": "urn:iec:std:iec:61000-1-2::ts::",
+		"label": "",
+		"type": "reference",
+		"metadata": {
+			"number": "IEC TS 61000‑1‑2",
+			"date": null,
+			"title": "Electromagnetic compatibility (EMC) – Part 1‑‑2: General – Methodology for the achievement of functional safety of electrical and electronic systems including equipment with regard to electromagnetic phenomena",
+			"status": "development",
+			"catalogueType": "standard"
+		}
+	},
+	{
+		"id": "urn:iec:std:iec:610006-7::::",
+		"label": "",
+		"type": "reference",
+		"metadata": {
+			"number": "IEC 61000‑6‑7",
+			"date": null,
+			"title": "Electromagnetic compatibility (EMC) – Part 6-7: Generic standards – Immunity requirements for equipment intended to perform functions in a safety-related system (functional safety) in industrial locations",
+			"status": "published",
+			"catalogueType": "corrigendum"
+		}
+	},
+	{
+		"id": "urn:iec:std:iec:61131-6::::",
+		"label": "",
+		"type": "reference",
+		"metadata": {
+			"number": "IEC 61131‑6",
+			"date": null,
+			"title": "Programmable controllers – Part 6: Functional safety",
+			"status": "published",
+			"catalogueType": "standard"
+		}
+	},
+	{
+		"id": "urn:iec:std:iec:61158::ser::",
+		"label": "",
+		"type": "reference",
+		"metadata": {
+			"number": "IEC 61158 (all parts)",
+			"date": null,
+			"title": "Industrial communication networks – Fieldbus specifications",
+			"status": "withdrawn",
+			"catalogueType": "amendment"
+		}
+	},
+	{
+		"id": "urn:iec:std:iec:61496::ser::",
+		"label": "",
+		"type": "reference",
+		"metadata": {
+			"number": "IEC 61496 (all parts)",
+			"date": null,
+			"title": "Safety of machinery – Electro-sensitive protective equipment",
+			"status": "development",
+			"catalogueType": "standard"
+		}
+	},
+	{
+		"id": "urn:iec:std:iec:61508-1:2010-04:::",
+		"label": "",
+		"type": "reference",
+		"metadata": {
+			"number": "IEC 61508‑1",
+			"date": "2010",
+			"title": "Functional safety of electrical/electronic/programmable electronic safety-related systems – Part 1: General requirements",
+			"status": "withdrawn",
+			"catalogueType": "standard"
+		}
+	},
+	{
+		"id": "urn:iec:std:iec:61508-4:2010-04:::",
+		"label": "",
+		"type": "reference",
+		"metadata": {
+			"number": "IEC 61508‑4",
+			"date": "2010",
+			"title": "Functional safety of electrical/electronic/programmable electronic safety-related systems – Part 4: Definitions and abbreviations",
+			"status": "development",
+			"catalogueType": "amendment"
+		}
+	},
+	{
+		"id": "urn:iec:std:iec:61508-5:2010-04:::",
+		"label": "",
+		"type": "reference",
+		"metadata": {
+			"number": "IEC 61508‑5",
+			"date": "2010",
+			"title": "Functional safety of electrical/electronic/programmable electronic safety-related systems – Part 5: Examples of methods for the determination of safety integrity levels",
+			"status": "withdrawn",
+			"catalogueType": "corrigendum"
+		}
+	},
+	{
+		"id": "urn:iec:std:iec:61511::ser::",
+		"label": "",
+		"type": "reference",
+		"metadata": {
+			"number": "IEC 61511 (all parts)",
+			"date": null,
+			"title": "Functional safety – Safety instrumented systems for the process industry sector",
+			"status": "withdrawn",
+			"catalogueType": "corrigendum"
+		}
+	},
+	{
+		"id": "urn:iec:std:iec:61784-4::::",
+		"label": "",
+		"type": "reference",
+		"metadata": {
+			"number": "IEC 61784‑4",
+			"date": null,
+			"title": "Industrial communication networks – Profiles – Part 4: Secure communications for fieldbuses",
+			"status": "development",
+			"catalogueType": "standard"
+		}
+	},
+	{
+		"id": "urn:iec:std:iec:61784-5::ser::",
+		"label": "",
+		"type": "reference",
+		"metadata": {
+			"number": "IEC 61784‑5 (all parts)",
+			"date": null,
+			"title": "Industrial communication networks – Profiles – Part 5: Installation of fieldbuses – Installation profiles for CPF x",
+			"status": "published",
+			"catalogueType": "corrigendum"
+		}
+	},
+	{
+		"id": "urn:iec:std:iec:61800-5-2::::",
+		"label": "",
+		"type": "reference",
+		"metadata": {
+			"number": "IEC 61800‑5‑2",
+			"date": null,
+			"title": "Adjustable speed electrical power drive systems – Part 5‑2: Safety requirements – Functional",
+			"status": "development",
+			"catalogueType": "standard"
+		}
+	},
+	{
+		"id": "urn:iec:std:iec:62059-11:2002-01:tr::",
+		"label": "",
+		"type": "reference",
+		"metadata": {
+			"number": "IEC TR 62059‑11",
+			"date": "2002",
+			"title": "Electricity metering equipment – Dependability – Part 11: General concepts",
+			"status": "development",
+			"catalogueType": "standard"
+		}
+	},
+	{
+		"id": "urn:iec:std:iec:62061::::",
+		"label": "",
+		"type": "reference",
+		"metadata": {
+			"number": "IEC 62061",
+			"date": null,
+			"title": "Safety of machinery – Functional safety of safety-related electrical, electronic and programmable electronic control systems",
+			"status": "development",
+			"catalogueType": "corrigendum"
+		}
+	},
+	{
+		"id": "urn:iec:std:iec:62210:2003-05:tr::",
+		"label": "",
+		"type": "reference",
+		"metadata": {
+			"number": "IEC TR 62210",
+			"date": "2003",
+			"title": "Power system control and associated communications – Data and communication security",
+			"status": "published",
+			"catalogueType": "corrigendum"
+		}
+	},
+	{
+		"id": "urn:iec:std:iec:62280:2014-02:::",
+		"label": "",
+		"type": "reference",
+		"metadata": {
+			"number": "IEC 62280",
+			"date": "2014",
+			"title": "Railway applications – Communication, signalling and processing systems – Safety related communication in transmission systems",
+			"status": "withdrawn",
+			"catalogueType": "amendment"
+		}
+	},
+	{
+		"id": "urn:iec:std:iec:62443::ser::",
+		"label": "",
+		"type": "reference",
+		"metadata": {
+			"number": "IEC 62443 (all parts)",
+			"date": null,
+			"title": "Industrial communication networks – Network and system security",
+			"status": "withdrawn",
+			"catalogueType": "standard"
+		}
+	},
+	{
+		"id": "urn:iec:std:iec:62685::tr::",
+		"label": "",
+		"type": "reference",
+		"metadata": {
+			"number": "IEC TR 62685",
+			"date": null,
+			"title": "Industrial communication networks – Profiles – Assessment guideline for safety devices using urn:iec:std:iec:61784-3::::IEC 61784‑3 functional safety communication profiles (FSCPs)",
+			"status": "withdrawn",
+			"catalogueType": "corrigendum"
+		}
+	},
+	{
+		"id": "urn:iec:std:iso-iec:51:2014-03:guide::",
+		"label": "",
+		"type": "reference",
+		"metadata": {
+			"number": "ISO/IEC Guide 51",
+			"date": "2014",
+			"title": "Safety aspects – Guidelines for their inclusion in standards",
+			"status": "development",
+			"catalogueType": "corrigendum"
+		}
+	},
+	{
+		"id": "urn:iec:std:iso-iec:2382-14::::",
+		"label": "",
+		"type": "reference",
+		"metadata": {
+			"number": "ISO/IEC 2382‑14",
+			"date": null,
+			"title": "Information technology – Vocabulary – Part 14: Reliability, maintainability and availability",
+			"status": "development",
+			"catalogueType": "amendment"
+		}
+	},
+	{
+		"id": "urn:iec:std:iso-iec:2382-16:1996:::",
+		"label": "",
+		"type": "reference",
+		"metadata": {
+			"number": "ISO/IEC 2382‑16",
+			"date": "1996",
+			"title": "Information technology – Vocabulary – Part 16: Information theory",
+			"status": "development",
+			"catalogueType": "corrigendum"
+		}
+	},
+	{
+		"id": "urn:iec:std:iso-iec:7498-1::::",
+		"label": "",
+		"type": "reference",
+		"metadata": {
+			"number": "ISO/IEC 7498‑1",
+			"date": null,
+			"title": "Information technology – Open Systems Interconnection – Basic Reference Model: The Basic Model",
+			"status": "development",
+			"catalogueType": "amendment"
+		}
+	},
+	{
+		"id": "urn:iec:std:iso-iec:19501:2005-04:::",
+		"label": "",
+		"type": "reference",
+		"metadata": {
+			"number": "ISO/IEC 19501",
+			"date": "2005",
+			"title": "Information technology – Open Distributed Processing – Unified Modeling Language (UML) Version 1.4.2",
+			"status": "development",
+			"catalogueType": "standard"
+		}
+	},
+	{
+		"id": "urn:iec:std:iso:10218-1::::",
+		"label": "",
+		"type": "reference",
+		"metadata": {
+			"number": "ISO 10218‑1",
+			"date": null,
+			"title": "Robots and robotic devices – Safety requirements for industrial robots – Part 1: Robots",
+			"status": "withdrawn",
+			"catalogueType": "corrigendum"
+		}
+	},
+	{
+		"id": "urn:iec:std:iso:12100::::",
+		"label": "",
+		"type": "reference",
+		"metadata": {
+			"number": "ISO 12100",
+			"date": null,
+			"title": "Safety of machinery – General principles for design – Risk assessment and risk reduction",
+			"status": "withdrawn",
+			"catalogueType": "standard"
+		}
+	},
+	{
+		"id": "urn:iec:std:iso:13849::ser::",
+		"label": "",
+		"type": "reference",
+		"metadata": {
+			"number": "ISO 13849 (all parts)",
+			"date": null,
+			"title": "Safety of machinery – Safety-related parts of control systems",
+			"status": "published",
+			"catalogueType": "corrigendum"
+		}
+	},
+	{
+		"id": "urn:iec:std:iec:62026-3::::",
+		"label": "",
+		"type": "reference",
+		"metadata": {
+			"number": "IEC 62026‑3",
+			"date": null,
+			"title": "Low-voltage switchgear and controlgear – Controller-device interfaces (CDIs) – Part 3: DeviceNet",
+			"status": "withdrawn",
+			"catalogueType": "amendment"
+		}
+	},
+	{
+		"id": "urn:iec:std:iec:61850::ser::",
+		"label": "",
+		"type": "reference",
+		"metadata": {
+			"number": "IEC 61850 (all parts)",
+			"date": null,
+			"title": "Communication networks and systems for power utility automation",
+			"status": "development",
+			"catalogueType": "corrigendum"
+		}
+	},
+	{
+		"id": "urn:iec:std:iec:61850-7-4:2010-03:::",
+		"label": "",
+		"type": "reference",
+		"metadata": {
+			"number": "IEC 61850‑7‑4",
+			"date": "2010",
+			"title": "Communication networks and systems for power utility automation – Part 7-4: Basic communication structure – Compatible logical node classes and data object classes",
+			"status": "withdrawn",
+			"catalogueType": "amendment"
+		}
+	},
+	{
+		"id": "urn:iec:std:iec:61968::ser::",
+		"label": "",
+		"type": "reference",
+		"metadata": {
+			"number": "IEC 61968 (all parts)",
+			"date": null,
+			"title": "Application integration at electric utilities – System interfaces for distribution management",
+			"status": "development",
+			"catalogueType": "standard"
+		}
+	},
+	{
+		"id": "urn:iec:std:iec:61970-2::ts::",
+		"label": "",
+		"type": "reference",
+		"metadata": {
+			"number": "IEC TS 61970‑2",
+			"date": null,
+			"title": "Energy management system application program interface (EMS-API) – Part 2: Glossary",
+			"status": "withdrawn",
+			"catalogueType": "standard"
+		}
+	},
+	{
+		"id": "urn:iec:std:iec:61850-7-3::::",
+		"label": "",
+		"type": "reference",
+		"metadata": {
+			"number": "IEC 61850‑7‑3",
+			"date": null,
+			"title": "Communication networks and systems for power utility automation – Part 7-3: Basic communication structure – Common data classes",
+			"status": "development",
+			"catalogueType": "corrigendum"
+		}
+	},
+	{
+		"id": "urn:iec:std:iec:61968-11:2013-03:::",
+		"label": "",
+		"type": "reference",
+		"metadata": {
+			"number": "IEC 61968‑11",
+			"date": "2013",
+			"title": "Application integration at electric utilities – System interfaces for distribution management – Part 11: Common information model (CIM) extensions for distribution",
+			"status": "development",
+			"catalogueType": "amendment"
+		}
+	},
+	{
+		"id": "urn:iec:std:iec:61970-501::::",
+		"label": "",
+		"type": "reference",
+		"metadata": {
+			"number": "IEC 61970‑501",
+			"date": null,
+			"title": "Energy management system application program interface (EMS-API) – Part 501: Common Information Model Resource Description Framework (CIM RDF) schema",
+			"status": "withdrawn",
+			"catalogueType": "amendment"
+		}
+	},
+	{
+		"id": "urn:iec:std:iec:62325::ser::",
+		"label": "",
+		"type": "reference",
+		"metadata": {
+			"number": "IEC 62325 (all parts)",
+			"date": null,
+			"title": "Framework for energy market communications",
+			"status": "development",
+			"catalogueType": "corrigendum"
+		}
+	},
+	{
+		"id": "urn:iec:std:iec:60891:2009-12:::",
+		"label": "",
+		"type": "reference",
+		"metadata": {
+			"number": "IEC 60891",
+			"date": "2009",
+			"title": "Photovoltaic devices – Procedures for temperature and irradiance corrections to measured I‑V characteristics",
+			"status": "development",
+			"catalogueType": "amendment"
+		}
+	},
+	{
+		"id": "urn:iec:std:iec:60904-1:2006-09:::",
+		"label": "",
+		"type": "reference",
+		"metadata": {
+			"number": "IEC 60904‑1",
+			"date": "2006",
+			"title": "Photovoltaic devices – Part 1: Measurement of photovoltaic current-voltage characteristics",
+			"status": "development",
+			"catalogueType": "corrigendum"
+		}
+	},
+	{
+		"id": "urn:iec:std:iec:61056-1:2012-02:::",
+		"label": "",
+		"type": "reference",
+		"metadata": {
+			"number": "IEC 61056‑1",
+			"date": "2012",
+			"title": "General purpose lead-acid batteries (valve-regulated types) – Part 1: General requirements, functional characteristics – Methods of test",
+			"status": "development",
+			"catalogueType": "corrigendum"
+		}
+	},
+	{
+		"id": "urn:iec:std:iec:61215::ser::",
+		"label": "",
+		"type": "reference",
+		"metadata": {
+			"number": "IEC 61215 (all parts)",
+			"date": null,
+			"title": "Terrestrial photovoltaic (PV) modules – Design qualification and type approval",
+			"status": "development",
+			"catalogueType": "corrigendum"
+		}
+	},
+	{
+		"id": "urn:iec:std:iec:61215-2::::",
+		"label": "",
+		"type": "reference",
+		"metadata": {
+			"number": "IEC 61215‑2",
+			"date": null,
+			"title": "Terrestrial photovoltaic (PV) modules – Design qualification and type approval – Part 2: Test procedures",
+			"status": "published",
+			"catalogueType": "corrigendum"
+		}
+	},
+	{
+		"id": "urn:iec:std:iec:61427-1:2013-04:::",
+		"label": "",
+		"type": "reference",
+		"metadata": {
+			"number": "IEC 61427‑1",
+			"date": "2013",
+			"title": "Secondary cells and batteries for renewable energy storage – General requirements and methods of test – Part 1: Photovoltaic off-grid application",
+			"status": "withdrawn",
+			"catalogueType": "standard"
+		}
+	},
+	{
+		"id": "urn:iec:std:iec:61951-2:2017-03:::",
+		"label": "",
+		"type": "reference",
+		"metadata": {
+			"number": "IEC 61951‑2",
+			"date": "2017",
+			"title": "Secondary cells and batteries containing alkaline or other non acid electrolytes – Secondary sealed cells and batteries for portable applications – Part 2: Nickel-metal hydride",
+			"status": "development",
+			"catalogueType": "standard"
+		}
+	},
+	{
+		"id": "urn:iec:std:iec:61960-3:2017-02:::",
+		"label": "",
+		"type": "reference",
+		"metadata": {
+			"number": "IEC 61960‑3",
+			"date": "2017",
+			"title": "Secondary cells and batteries containing alkaline or other non-acid electrolytes – Secondary lithium cells and batteries for portable applications – Part 3: Prismatic and cylindrical lithium secondary cells and batteries made from them",
+			"status": "development",
+			"catalogueType": "amendment"
+		}
+	},
+	{
+		"id": "urn:iec:std:iec:62087-2:2015-06:::",
+		"label": "",
+		"type": "reference",
+		"metadata": {
+			"number": "IEC 62087‑2",
+			"date": "2015",
+			"title": "Audio, video, and related equipment – Determination of power consumption – Part 2: Signals and media",
+			"status": "withdrawn",
+			"catalogueType": "corrigendum"
+		}
+	},
+	{
+		"id": "urn:iec:std:iec:62087-3:2015-06:::",
+		"label": "",
+		"type": "reference",
+		"metadata": {
+			"number": "IEC 62087‑3",
+			"date": "2015",
+			"title": "Audio, video, and related equipment – Determination of power consumption – Part 3: Television sets",
+			"status": "published",
+			"catalogueType": "standard"
+		}
+	},
+	{
+		"id": "urn:iec:std:iec:62087-6:2015-06:::",
+		"label": "",
+		"type": "reference",
+		"metadata": {
+			"number": "IEC 62087‑6",
+			"date": "2015",
+			"title": "Audio, video, and related equipment – Determination of power consumption – Part 6: Audio equipment",
+			"status": "withdrawn",
+			"catalogueType": "standard"
+		}
+	},
+	{
+		"id": "urn:iec:std:iec:62257-12-1:2015-10:ts::",
+		"label": "",
+		"type": "reference",
+		"metadata": {
+			"number": "IEC TS 62257‑12‑1",
+			"date": "2015",
+			"title": "Recommendations for renewable energy and hybrid systems for rural electrification – Part 12-1: Selection of lamps and lighting appliances for off-grid electricity systems",
+			"status": "published",
+			"catalogueType": "standard"
+		}
+	},
+	{
+		"id": "urn:iec:std:iec:62509:2010-12:::",
+		"label": "",
+		"type": "reference",
+		"metadata": {
+			"number": "IEC 62509",
+			"date": "2010",
+			"title": "Battery charge controllers for photovoltaic systems – Performance and functioning",
+			"status": "withdrawn",
+			"catalogueType": "amendment"
+		}
+	},
+	{
+		"id": "urn:iec:std:iec:60268-1::::",
+		"label": "",
+		"type": "reference",
+		"metadata": {
+			"number": "IEC 60268‑1",
+			"date": null,
+			"title": "Sound system equipment – Part 1: General",
+			"status": "published",
+			"catalogueType": "amendment"
+		}
+	},
+	{
+		"id": "urn:iec:std:iec:60896-11::::",
+		"label": "",
+		"type": "reference",
+		"metadata": {
+			"number": "IEC 60896‑11",
+			"date": null,
+			"title": "Stationary lead-acid batteries – Part 11: Vented types – General requirements and methods of tests",
+			"status": "withdrawn",
+			"catalogueType": "standard"
+		}
+	},
+	{
+		"id": "urn:iec:std:iec:60896-21::::",
+		"label": "",
+		"type": "reference",
+		"metadata": {
+			"number": "IEC 60896‑21",
+			"date": null,
+			"title": "Stationary lead-acid batteries – Part 21: Valve regulated types – Methods of test",
+			"status": "development",
+			"catalogueType": "standard"
+		}
+	},
+	{
+		"id": "urn:iec:std:iec:62133::ser::",
+		"label": "",
+		"type": "reference",
+		"metadata": {
+			"number": "IEC 62133 (all parts)",
+			"date": null,
+			"title": "Secondary cells and batteries containing alkaline or other non-acid electrolytes – Safety requirements for portable sealed secondary cells, and for batteries made from them, for use in portable applications",
+			"status": "development",
+			"catalogueType": "corrigendum"
+		}
+	},
+	{
+		"id": "urn:iec:std:iec:62257-2::ts::",
+		"label": "",
+		"type": "reference",
+		"metadata": {
+			"number": "IEC TS 62257‑2",
+			"date": null,
+			"title": "Recommendations for renewable energy and hybrid systems for rural electrification – Part 2: From requirements to a range of electrification systems",
+			"status": "withdrawn",
+			"catalogueType": "standard"
+		}
+	},
+	{
+		"id": "urn:iec:std:iso:9000::::",
+		"label": "",
+		"type": "reference",
+		"metadata": {
+			"number": "ISO 9000",
+			"date": null,
+			"title": "Quality management systems – Fundamentals and vocabulary",
+			"status": "published",
+			"catalogueType": "amendment"
+		}
+	},
+	{
+		"id": "urn:iec:std:iec:60050-151:2001-07:::",
+		"label": "",
+		"type": "reference",
+		"metadata": {
+			"number": "IEC 60050(151)",
+			"date": "2001",
+			"title": "International Electrotechnical Vocabulary – Part 151: Electrical and magnetic devices",
+			"status": "published",
+			"catalogueType": "corrigendum"
+		}
+	},
+	{
+		"id": "urn:iec:std:iec:60059::::",
+		"label": "",
+		"type": "reference",
+		"metadata": {
+			"number": "IEC 60059",
+			"date": null,
+			"title": "IEC standard current ratings",
+			"status": "published",
+			"catalogueType": "amendment"
+		}
+	},
+	{
+		"id": "urn:iec:std:iec:60071-2::::",
+		"label": "",
+		"type": "reference",
+		"metadata": {
+			"number": "IEC 60071‑2",
+			"date": null,
+			"title": "Insulation coordination – Part 2: Application guide",
+			"status": "withdrawn",
+			"catalogueType": "amendment"
+		}
+	},
+	{
+		"id": "urn:iec:std:iec:60137::::",
+		"label": "",
+		"type": "reference",
+		"metadata": {
+			"number": "IEC 60137",
+			"date": null,
+			"title": "Insulated bushings for alternating voltages above 1 000 kV",
+			"status": "published",
+			"catalogueType": "standard"
+		}
+	},
+	{
+		"id": "urn:iec:std:iec:60255-3:1989-06:::",
+		"label": "",
+		"type": "reference",
+		"metadata": {
+			"number": "IEC 60255‑3",
+			"date": "1989",
+			"title": "Electrical relays – Part 3: Single input energizing quantity measuring relays with dependent or independent time",
+			"status": "development",
+			"catalogueType": "corrigendum"
+		}
+	},
+	{
+		"id": "urn:iec:std:iec:60376::::",
+		"label": "",
+		"type": "reference",
+		"metadata": {
+			"number": "IEC 60376",
+			"date": null,
+			"title": "Specification of technical grade sulphur hexafluoride (SF",
+			"status": "development",
+			"catalogueType": "standard"
+		}
+	},
+	{
+		"id": "urn:iec:std:iec:60480::::",
+		"label": "",
+		"type": "reference",
+		"metadata": {
+			"number": "IEC 60480",
+			"date": null,
+			"title": "Guidelines for the checking and treatment of sulphur hexafluoride (SF",
+			"status": "development",
+			"catalogueType": "corrigendum"
+		}
+	},
+	{
+		"id": "urn:iec:std:iec:61634::ts::",
+		"label": "",
+		"type": "reference",
+		"metadata": {
+			"number": "IEC/TS 61634",
+			"date": null,
+			"title": "High-voltage switchgear and controlgear – Use and handling of sulphur hexafluoride (SF6) in high-voltage switchgear and controlgear",
+			"status": "development",
+			"catalogueType": "amendment"
+		}
+	},
+	{
+		"id": "urn:iec:std:iec:62271-1:2007-10:::",
+		"label": "",
+		"type": "reference",
+		"metadata": {
+			"number": "IEC 62271‑1",
+			"date": "2007",
+			"title": ":High-voltage switchgear and controlgear – Part 1: Common specifications",
+			"status": "published",
+			"catalogueType": "amendment"
+		}
+	},
+	{
+		"id": "urn:iec:std:iec:62271-101:2006-05:::",
+		"label": "",
+		"type": "reference",
+		"metadata": {
+			"number": "IEC 62271‑101",
+			"date": "2006",
+			"title": "High-voltage switchgear and controlgear – Part 101: Synthetic testing",
+			"status": "withdrawn",
+			"catalogueType": "standard"
+		}
+	},
+	{
+		"id": "urn:iec:std:iec:62271-102:2001-12:::",
+		"label": "",
+		"type": "reference",
+		"metadata": {
+			"number": "IEC 62271‑102",
+			"date": " 2001",
+			"title": "High-voltage switchgear and controlgear – Part 102: Alternating current disconnectors and earthing switches",
+			"status": "development",
+			"catalogueType": "standard"
+		}
+	},
+	{
+		"id": "urn:iec:std:iec:62271-110::::",
+		"label": "",
+		"type": "reference",
+		"metadata": {
+			"number": "IEC 62271‑110",
+			"date": null,
+			"title": "High-voltage switchgear and controlgear – Part 110: Inductive load switching",
+			"status": "development",
+			"catalogueType": "corrigendum"
+		}
+	},
+	{
+		"id": "urn:iec:std:iec:60077::::",
+		"label": "",
+		"type": "reference",
+		"metadata": {
+			"number": "IEC 60077",
+			"date": null,
+			"title": "Railway applications – Electric equipment for rolling stock",
+			"status": "published",
+			"catalogueType": "corrigendum"
+		}
+	},
+	{
+		"id": "urn:iec:std:iec:62271-109::::",
+		"label": "",
+		"type": "reference",
+		"metadata": {
+			"number": "IEC 62271‑109",
+			"date": null,
+			"title": "High-voltage switchgear and controlgear – Part 109: Alternating-current series capacitor by-pass switches",
+			"status": "published",
+			"catalogueType": "corrigendum"
+		}
+	},
+	{
+		"id": "urn:iec:std:iec:62271-310::::",
+		"label": "",
+		"type": "reference",
+		"metadata": {
+			"number": "IEC 62271‑310",
+			"date": null,
+			"title": "High-voltage switchgear and controlgear – Part 310: Electrical endurance testing for circuit-breakers of rated voltage 72,5 kV and above",
+			"status": "withdrawn",
+			"catalogueType": "corrigendum"
+		}
+	},
+	{
+		"id": "urn:iec:std:iec:62271-200::::",
+		"label": "",
+		"type": "reference",
+		"metadata": {
+			"number": "IEC 62271‑200",
+			"date": null,
+			"title": "High-voltage switchgear and controlgear – Part 200: AC metal enclosed switchgear and controlgear for rated voltages above 1 kV and up to and including 52 kV",
+			"status": "withdrawn",
+			"catalogueType": "standard"
+		}
+	},
+	{
+		"id": "urn:iec:std:iec:62271-203::::",
+		"label": "",
+		"type": "reference",
+		"metadata": {
+			"number": "IEC 62271‑203",
+			"date": null,
+			"title": "High-voltage switchgear and controlgear – Part 203: Gas-insulated metal-enclosed switchgear for rated voltages of 72,5 kV and above",
+			"status": "development",
+			"catalogueType": "standard"
+		}
+	},
+	{
+		"id": "urn:iec:std:iec:60044-1::::",
+		"label": "",
+		"type": "reference",
+		"metadata": {
+			"number": "IEC 60044‑1",
+			"date": null,
+			"title": "Instrument transformers – Part 1: Current transformers",
+			"status": "published",
+			"catalogueType": "amendment"
+		}
+	},
+	{
+		"id": "urn:iec:std:iec:60044-2::::",
+		"label": "",
+		"type": "reference",
+		"metadata": {
+			"number": "IEC 60044‑2",
+			"date": null,
+			"title": "Instrument transformers – Part 2: Inductive voltage transformers",
+			"status": "development",
+			"catalogueType": "standard"
+		}
+	},
+	{
+		"id": "urn:iec:std:iec:60099-4::::",
+		"label": "",
+		"type": "reference",
+		"metadata": {
+			"number": "IEC 60099‑4",
+			"date": null,
+			"title": "Surge arresters – Part 4: Metal oxide surge arresters without gaps for a.c. systems",
+			"status": "withdrawn",
+			"catalogueType": "corrigendum"
+		}
+	},
+	{
+		"id": "urn:iec:std:iec:60186::::",
+		"label": "",
+		"type": "reference",
+		"metadata": {
+			"number": "IEC 60186",
+			"date": null,
+			"title": "Voltage transformers3",
+			"status": "published",
+			"catalogueType": "amendment"
+		}
+	},
+	{
+		"id": "urn:iec:std:iec:62271-300::tr::",
+		"label": "",
+		"type": "reference",
+		"metadata": {
+			"number": "IEC/TR 62271‑300",
+			"date": null,
+			"title": "High-voltage switchgear and controlgear – Part 300: Seisming qualification of alternating current circuit-breakers",
+			"status": "withdrawn",
+			"catalogueType": "corrigendum"
+		}
+	},
+	{
+		"id": "urn:iec:std:ieee:100::::",
+		"label": "",
+		"type": "reference",
+		"metadata": {
+			"number": "IEEE 100",
+			"date": null,
+			"title": "The authoritative dictionary of IEEE standards terms, 7th edition, 2000.",
+			"status": "published",
+			"catalogueType": "standard"
+		}
+	},
+	{
+		"id": "urn:iec:std:iec:60169-24::::",
+		"label": "",
+		"type": "reference",
+		"metadata": {
+			"number": "IEC 60169‑24",
+			"date": null,
+			"title": "Radio-frequency connectors – Part 24: Radio-frequency coaxial connectors with screw coupling, typically for use in 75 ohm cable distribution systems (Type F)",
+			"status": "development",
+			"catalogueType": "amendment"
+		}
+	},
+	{
+		"id": "urn:iec:std:iec:62481-2:2017-07:::",
+		"label": "",
+		"type": "reference",
+		"metadata": {
+			"number": "IEC 62481‑2",
+			"date": "2017",
+			"title": "Digital living network alliance (DLNA) guidelines – Part 2: Media Format Profiles",
+			"status": "published",
+			"catalogueType": "corrigendum"
+		}
+	},
+	{
+		"id": "urn:iec:std:iec:62481-3:2017-07:::",
+		"label": "",
+		"type": "reference",
+		"metadata": {
+			"number": "IEC 62481‑3",
+			"date": "2017",
+			"title": "Digital living network alliance (DLNA) guidelines – Part 3: Link protection",
+			"status": "withdrawn",
+			"catalogueType": "corrigendum"
+		}
+	},
+	{
+		"id": "urn:iec:std:iec:62481-8:2017-07:::",
+		"label": "",
+		"type": "reference",
+		"metadata": {
+			"number": "IEC 62481‑8",
+			"date": "2017",
+			"title": "Digital living network alliance (DLNA) guidelines – Part 8: Diagnostics",
+			"status": "published",
+			"catalogueType": "standard"
+		}
+	},
+	{
+		"id": "urn:iec:std:iec:62481-10:2017-07:::",
+		"label": "",
+		"type": "reference",
+		"metadata": {
+			"number": "IEC 62481‑10",
+			"date": "2017",
+			"title": "Digital living network alliance (DLNA) guidelines – Part 10: Low Power ModeI",
+			"status": "withdrawn",
+			"catalogueType": "standard"
+		}
+	},
+	{
+		"id": "urn:iec:std:iso-iec:13818-1:2000:::",
+		"label": "",
+		"type": "reference",
+		"metadata": {
+			"number": "ISO/IEC 13818‑1",
+			"date": "2000",
+			"title": "Information technology – Generic coding of moving pictures and associated audio information: Systems",
+			"status": "published",
+			"catalogueType": "standard"
+		}
+	},
+	{
+		"id": "urn:iec:std:iso-iec:13818-2::::",
+		"label": "",
+		"type": "reference",
+		"metadata": {
+			"number": "ISO/IEC 13818‑2",
+			"date": null,
+			"title": "Information technology – Generic coding of moving pictures and associated audio (MPEG): Video",
+			"status": "withdrawn",
+			"catalogueType": "amendment"
+		}
+	},
+	{
+		"id": "urn:iec:std:iso-iec:13818-9::::",
+		"label": "",
+		"type": "reference",
+		"metadata": {
+			"number": "ISO/IEC 13818‑9",
+			"date": null,
+			"title": "Information technology – Generic coding of moving pictures and associated audio information – Part 9: Extension for real time interface for systems decoders, International Standards Organization",
+			"status": "development",
+			"catalogueType": "standard"
+		}
+	},
+	{
+		"id": "urn:iec:std:iso-iec:29341-1:2011-09:::",
+		"label": "",
+		"type": "reference",
+		"metadata": {
+			"number": "ISO/IEC 29341‑1",
+			"date": "2011",
+			"title": "Information technology – UPnP Device Architecture – Part 1-1: UPnP Device Architecture",
+			"status": "development",
+			"catalogueType": "corrigendum"
+		}
+	},
+	{
+		"id": "urn:iec:std:iso-iec:29341-1-2:2016:::",
+		"label": "",
+		"type": "reference",
+		"metadata": {
+			"number": "ISO/IEC 29341‑1‑2",
+			"date": "2016",
+			"title": "Information technology – UPnP Device Architecture – Part 1-2: UPnP Device Architecture Version 2.0",
+			"status": "published",
+			"catalogueType": "corrigendum"
+		}
+	},
+	{
+		"id": "urn:iec:std:iso-iec:29341-3-2::::",
+		"label": "",
+		"type": "reference",
+		"metadata": {
+			"number": "ISO/IEC 29341‑3‑2",
+			"date": null,
+			"title": "Information technology – UPnP Device Architecture – Part 3-2: Audio Video Device Control Protocol – Media Renderer Device1",
+			"status": "published",
+			"catalogueType": "corrigendum"
+		}
+	},
+	{
+		"id": "urn:iec:std:iso-iec:29341-20-3::::",
+		"label": "",
+		"type": "reference",
+		"metadata": {
+			"number": "ISO/IEC 29341‑20‑3",
+			"date": null,
+			"title": "Information technology – UPnP Device Architecture – Part 20-3: Audio Video Device Control Protocol – Level 4 – Media Server Device2",
+			"status": "development",
+			"catalogueType": "corrigendum"
+		}
+	},
+	{
+		"id": "urn:iec:std:iso-iec:29341-20-10:2011:::",
+		"label": "",
+		"type": "reference",
+		"metadata": {
+			"number": "ISO/IEC 29341‑20‑10",
+			"date": "2011",
+			"title": "Information technology – UPnP Device Architecture – Part 20-10: Audio Video Device Control Protocol – Level 4 – Audio Video Transport Service2",
+			"status": "development",
+			"catalogueType": "corrigendum"
+		}
+	},
+	{
+		"id": "urn:iec:std:iso-iec:29341-14-11::::",
+		"label": "",
+		"type": "reference",
+		"metadata": {
+			"number": "ISO/IEC 29341‑14‑11",
+			"date": null,
+			"title": "Information technology – UPnP Device Architecture – Part 14-11: Audio Video Device Control Protocol – Level 3 – Connection Manager Service2",
+			"status": "withdrawn",
+			"catalogueType": "amendment"
+		}
+	},
+	{
+		"id": "urn:iec:std:iso-iec:29341-20-12:2016:::",
+		"label": "",
+		"type": "reference",
+		"metadata": {
+			"number": "ISO/IEC 29341‑20‑12",
+			"date": "2016",
+			"title": "Information technology – UPnP Device Architecture – Part 20-12: Audio Video Device Control Protocol – Level 4 – Content Directory Service2",
+			"status": "development",
+			"catalogueType": "standard"
+		}
+	},
+	{
+		"id": "urn:iec:std:iso-iec:29341-3-13::::",
+		"label": "",
+		"type": "reference",
+		"metadata": {
+			"number": "ISO/IEC 29341‑3‑13",
+			"date": null,
+			"title": "Information technology – UPnP Device Architecture – Part 3-13: Audio Video Device Control Protocol – Rendering Control Service1",
+			"status": "development",
+			"catalogueType": "amendment"
+		}
+	},
+	{
+		"id": "urn:iec:std:iso-iec:29341-4-2::::",
+		"label": "",
+		"type": "reference",
+		"metadata": {
+			"number": "ISO/IEC 29341‑4‑2",
+			"date": null,
+			"title": "Information technology – UPnP Device Architecture – Part 4-2: Audio Video Device Control Protocol – Level 2 – Media Renderer Device3",
+			"status": "withdrawn",
+			"catalogueType": "corrigendum"
+		}
+	},
+	{
+		"id": "urn:iec:std:iso-iec:29341-4-3::::",
+		"label": "",
+		"type": "reference",
+		"metadata": {
+			"number": "ISO/IEC 29341‑4‑3",
+			"date": null,
+			"title": "Information technology – UPnP Device Architecture – Part 4-3: Audio Video Device Control Protocol – Level 2 – Media Server Device4",
+			"status": "development",
+			"catalogueType": "corrigendum"
+		}
+	},
+	{
+		"id": "urn:iec:std:iso-iec:29341-4-4::::",
+		"label": "",
+		"type": "reference",
+		"metadata": {
+			"number": "ISO/IEC 29341‑4‑4",
+			"date": null,
+			"title": "Information technology – UPnP Device Architecture – Part 4-4: Audio Video Device Control Protocol – Level 2 – Audio Video Data Structures3",
+			"status": "withdrawn",
+			"catalogueType": "amendment"
+		}
+	},
+	{
+		"id": "urn:iec:std:iso-iec:29341-4-10::::",
+		"label": "",
+		"type": "reference",
+		"metadata": {
+			"number": "ISO/IEC 29341‑4‑10",
+			"date": null,
+			"title": "Information technology – UPnP Device Architecture – Part 4-10: Audio Video Device Control Protocol – Level 2 – Audio Video Transport Service3",
+			"status": "published",
+			"catalogueType": "corrigendum"
+		}
+	},
+	{
+		"id": "urn:iec:std:iso-iec:29341-4-11::::",
+		"label": "",
+		"type": "reference",
+		"metadata": {
+			"number": "ISO/IEC 29341‑4‑11",
+			"date": null,
+			"title": "Information technology – UPnP Device Architecture – Part 4-11: Audio Video Device Control Protocol – Level 2 – Connection Manager Service3",
+			"status": "published",
+			"catalogueType": "corrigendum"
+		}
+	},
+	{
+		"id": "urn:iec:std:iso-iec:29341-4-12:2008-11:::",
+		"label": "",
+		"type": "reference",
+		"metadata": {
+			"number": "ISO/IEC 29341‑4‑12",
+			"date": "2008",
+			"title": "Information technology – UPnP Device Architecture – Part 4-12: Audio Video Device Control Protocol – Level 2 – Content Directory Service4",
+			"status": "development",
+			"catalogueType": "corrigendum"
+		}
+	},
+	{
+		"id": "urn:iec:std:iso-iec:29341-4-13::::",
+		"label": "",
+		"type": "reference",
+		"metadata": {
+			"number": "ISO/IEC 29341‑4‑13",
+			"date": null,
+			"title": "Information technology – UPnP Device Architecture – Part 4-13: Audio Video Device Control Protocol – Level 2 – Rendering Control Service3",
+			"status": "withdrawn",
+			"catalogueType": "corrigendum"
+		}
+	},
+	{
+		"id": "urn:iec:std:iso-iec:29341-4-14:2011-09:::",
+		"label": "",
+		"type": "reference",
+		"metadata": {
+			"number": "ISO/IEC 29341‑4‑14",
+			"date": "2011",
+			"title": "Information technology – UPnP Device Architecture – Part 4-14: Audio Video Device Control Protocol – Level 2 – Scheduled Recording Service3",
+			"status": "published",
+			"catalogueType": "corrigendum"
+		}
+	},
+	{
+		"id": "urn:iec:std:iso-iec:29341-14-3::::",
+		"label": "",
+		"type": "reference",
+		"metadata": {
+			"number": "ISO/IEC 29341‑14‑3",
+			"date": null,
+			"title": "Information technology – UPnP Device Architecture – Part 14-3: Audio Video Device Control Protocol – Level 3 – Media Server Device5",
+			"status": "published",
+			"catalogueType": "standard"
+		}
+	},
+	{
+		"id": "urn:iec:std:iso-iec:29341-14-12:2011-09:::",
+		"label": "",
+		"type": "reference",
+		"metadata": {
+			"number": "ISO/IEC 29341‑14‑12",
+			"date": "2011",
+			"title": "Information technology – UPnP Device Architecture – Part 14-12: Audio Video Device Control Protocol – Level 3 – Content Directory Service5",
+			"status": "published",
+			"catalogueType": "standard"
+		}
+	},
+	{
+		"id": "urn:iec:std:iso:3166::::",
+		"label": "",
+		"type": "reference",
+		"metadata": {
+			"number": "ISO 3166",
+			"date": null,
+			"title": "Codes for the representation of names of countries and their subdivisions",
+			"status": "development",
+			"catalogueType": "amendment"
+		}
+	},
+	{
+		"id": "urn:iec:std:iso:8601::::",
+		"label": "",
+		"type": "reference",
+		"metadata": {
+			"number": "ISO 8601",
+			"date": null,
+			"title": "Data elements and interchange formats – Information interchange – Representation of dates and times, International Standards Organization",
+			"status": "published",
+			"catalogueType": "standard"
+		}
+	},
+	{
+		"id": "urn:iec:std:ieee:802.1D:2004:::",
+		"label": "",
+		"type": "reference",
+		"metadata": {
+			"number": "IEEE 802.1D",
+			"date": "2004",
+			"title": "Annex G, IEEE Standard for Information technology – Telecommunications and information exchange between systems – IEEE standard for local and metropolitan area networks – Common specifications – Media access control (MAC) Bridges.",
+			"status": "withdrawn",
+			"catalogueType": "corrigendum"
+		}
+	},
+	{
+		"id": "urn:iec:std:ieee:802.1Q:2003:::",
+		"label": "",
+		"type": "reference",
+		"metadata": {
+			"number": "IEEE 802.1Q",
+			"date": "2003",
+			"title": "IEEE Standard for Information Technology – Telecommunications and information exchange between systems – IEEE standard for local and metropolitan area networks – Media Access Control (MAC) Bridges and Virtual Bridged Local Area Networks--Corrigendum 2: Technical and editorial corrections.",
+			"status": "published",
+			"catalogueType": "corrigendum"
+		}
+	},
+	{
+		"id": "urn:iec:std:ieee:802.3:2002:::",
+		"label": "",
+		"type": "reference",
+		"metadata": {
+			"number": "IEEE 802.3",
+			"date": "2002",
+			"title": "IEEE Standard for Ethernet – Telecommunications and information exchange between systems – Local and metropolitan area networks – Specific requirements – Part 3: Carrier sense multiple access with collision detection (CSMA/CD) access method and physical layer specification.",
+			"status": "withdrawn",
+			"catalogueType": "corrigendum"
+		}
+	},
+	{
+		"id": "urn:iec:std:ieee:802.11::::",
+		"label": "",
+		"type": "reference",
+		"metadata": {
+			"number": "IEEE 802.11",
+			"date": null,
+			"title": "System Interoperability Wi-Fi CERTIFIED™6 Test Plan Version 2,0,36, Wi-Fi CERTIFIED™ ac Interoperability Test Plan v1.0.5 Wi-Fi Alliance",
+			"status": "published",
+			"catalogueType": "amendment"
+		}
+	},
+	{
+		"id": "urn:iec:std:ieee:1901::::",
+		"label": "",
+		"type": "reference",
+		"metadata": {
+			"number": "IEEE 1901",
+			"date": null,
+			"title": "Standard for Broadband Over Power Line Networks: Medium Access Control and Physical Layer Specifications",
+			"status": "withdrawn",
+			"catalogueType": "amendment"
+		}
+	},
+	{
+		"id": "urn:iec:std:iec:62481-6-1:2017-07:::",
+		"label": "",
+		"type": "reference",
+		"metadata": {
+			"number": "IEC 62481‑6‑1",
+			"date": "2017",
+			"title": "Digital living network alliance (DLNA) guidelines – Part 6-1: Remote User Interface – HTML5",
+			"status": "withdrawn",
+			"catalogueType": "corrigendum"
+		}
+	},
+	{
+		"id": "urn:iec:std:iec:62481-6-2:2017-07:::",
+		"label": "",
+		"type": "reference",
+		"metadata": {
+			"number": "IEC 62481‑6‑2",
+			"date": "2017",
+			"title": "Digital living network alliance (DLNA) guidelines – Part 6-2: RVU",
+			"status": "published",
+			"catalogueType": "standard"
+		}
+	},
+	{
+		"id": "urn:iec:std:iso:639-1::::",
+		"label": "",
+		"type": "reference",
+		"metadata": {
+			"number": "ISO 639‑1",
+			"date": null,
+			"title": "Language code",
+			"status": "development",
+			"catalogueType": "amendment"
+		}
+	},
+	{
+		"id": "urn:iec:std:ieee:1394::::",
+		"label": "",
+		"type": "reference",
+		"metadata": {
+			"number": "IEEE 1394",
+			"date": null,
+			"title": "High Performance Serial Bus",
+			"status": "development",
+			"catalogueType": "corrigendum"
+		}
+	},
+	{
+		"id": "urn:clc:std:50481::::",
+		"label": "",
+		"type": "reference",
+		"metadata": {
+			"number": "CLC/TR 50481",
+			"date": null,
+			"title": "Recommendations on filters for shielded enclosures",
+			"status": "development",
+			"catalogueType": "corrigendum"
+		}
+	},
+	{
+		"id": "urn:clc:std:50484::::",
+		"label": "",
+		"type": "reference",
+		"metadata": {
+			"number": "CLC/TR 50484",
+			"date": null,
+			"title": "Recommendations for shielded enclosures",
+			"status": "published",
+			"catalogueType": "standard"
+		}
+	},
+	{
+		"id": "urn:cen:std:1234::::",
+		"label": "",
+		"type": "reference",
+		"metadata": {
+			"number": "CEN 1234",
+			"date": null,
+			"title": "A random title",
+			"status": "development",
+			"catalogueType": "standard"
+		}
+	}
+]

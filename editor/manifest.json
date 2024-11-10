@@ -1,0 +1,29 @@
+{
+	"supportedBrowsers": {
+		"chrome": "75",
+		"edge": "15",
+		"firefox": "68",
+		"safari": "12"
+	},
+	"addonNames": [
+		"fontoxml-clipboard-instruction-modal",
+		"fontoxml-content-quality",
+		"fontoxml-crosslink-references",
+		"fontoxml-document-history",
+		"fontoxml-feedback",
+		"fontoxml-find-and-replace",
+		"fontoxml-mathml",
+		"fontoxml-nodes-browser",
+		"fontoxml-performance-tester",
+		"fontoxml-special-characters",
+		"fontoxml-structure-view",
+		"fontoxml-table-flow-xhtml",
+		"fontoxml-track-changes",
+		"fontoxml-web-references",
+		"fontoxml-whitespace-visualization",
+		"fontoxml-xml-view"
+	],
+	"name": "FontoXML for ISO/IEC",
+	"sdkBuildDate": "2024-06-20T12:59:47.213Z",
+	"sdkVersion": "8.9.0"
+}

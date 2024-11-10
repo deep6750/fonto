@@ -1,0 +1,163 @@
+﻿<analysis xmlns="http://schemas.fontoxml.com/content-quality/1.0/analysis-configuration.xsd"
+	xmlns:experimental="http://schemas.fontoxml.com/content-quality/1.0/experimental-analysis-configuration.xsd"
+	xmlns:spelling="urn:fontoxml:content-quality:spelling:1.0.0"
+	xmlns:functions="http://schemas.fontoxml.com/content-quality/1.0/functions.xsd"
+	xmlns:tbx="urn:iso:std:iso:30042:ed-1">
+
+	<sequential>
+
+		<!-- Inclusive language -->
+		<if condition="functions:enabled-categories-includes('highlight-other')">
+			<dictionaryAnnotator>
+				<fileSource relativePath="inclusiveLanguageDictionary.json"/>
+				<jsonFormat itemsQuery="$.inclusive-language[*]" patternQuery="pattern" annotationTypeId="inclusive-language" />
+			</dictionaryAnnotator>
+		</if>
+
+
+		<!-- Term reference -->
+		<if condition="functions:enabled-categories-includes('terminology')">
+			<sequential>
+				<!-- This is to test in Fonto: -->
+				<dictionaryAnnotator>
+					<fileSource relativePath="dictionary.json" />
+					<jsonFormat itemsQuery="$.terms[*]" patternQuery="pattern" annotationTypeId="term-reference">
+						<mapping valueQuery="documentId" metadataName="documentId"/>
+						<mapping valueQuery="pattern" metadataName="match"/>
+					</jsonFormat>
+				</dictionaryAnnotator>
+				<!-- <httpApiAnnotator endpoint="To be determined" inputAnnotationTypeIds="term-reference">
+				<endpointConfiguration>
+					<appendDocumentIdToQueryString/>
+				</endpointConfiguration>
+			</httpApiAnnotator> -->
+
+				<!-- isTbxDefinition = "self::tbx:definition" -->
+				<if condition="functions:block-data-value('isTbxDefinition')">
+					<sequential>
+						<regexAnnotator annotationTypeId="tbx-definition-article" pattern="^(the|any|all|an|a|some)\b" ignoreCase="true" />
+						<regexAnnotator annotationTypeId="tbx-definition-full-stop" pattern="\.$" />
+						<regexAnnotator annotationTypeId="tbx-definition-shall" pattern="\bshall\b" />
+						<regexAnnotator annotationTypeId="tbx-definition-capital" pattern="^[A-Z].*?\b" />
+						<!-- <regexAnnotator annotationTypeId="tbx-definition-first-word" pattern="^.+?\b" /> -->
+					</sequential>
+				</if>
+			</sequential>
+		</if>
+
+		<!-- Custom replacements. See the preferences.json file for the counterpart configuration. -->
+		<dictionaryAnnotator>
+			<fileSource relativePath="testReplacementDictionary.json" />
+			<jsonFormat itemsQuery="$.suggestions[*]" patternQuery="pattern" annotationTypeId="custom-replacements">
+				<mapping valueQuery="pattern" metadataName="pattern"/>
+				<mapping valueQuery="replacement" metadataName="replacement"/>
+				<mapping valueQuery="description" metadataName="description"/>
+			</jsonFormat>
+		</dictionaryAnnotator>
+
+		<!-- SpellCheck -->
+		<if condition="functions:enabled-categories-includes('spelling')">
+			<spellCheckAnnotator languages="en en-GB" hunspellAffix="en-GB/en-GB.aff" hunspellDictionary="en-GB/en-GB.dic" />
+		</if>
+
+		<if condition="functions:enabled-categories-includes('referencing')">
+			<sequential>
+				<regexAnnotator annotationTypeId="element-reference" pattern="\b(?&lt;type&gt;(?:table|figure|formula|equation))(?:s)?(?:\s(?:.[A-Z]*\.)?\d+)?\b" ignoreCase="true" />
+				<!-- The regex for matching standards is very long, here follows a description: -->
+				<!-- The first part is to match standard numbers that contain dots. But only if they start with "IEEE" (IEEE 002.1) -->
+				<!-- The number starts with one of the following prefixes (ISO|IEC|IEEE|IEEEE|FprCEN|CEN|CLC|ETSI|CWA) but they can also be combined, separated by a space or "/"-->
+				<!-- The prefix can be followed by a few other prefixes as well, but the number never start with one of these (TR|TS|PAS|SRD|Guide) which can also be combined, separated by a space or "/"-->
+				<!-- Then comes the number which consists out of 2-6 digits, followed by possible multiple dashes with digits in-between and after -->
+				<!-- When the standard number is dated then it is followed by ":" and a year -->
+				<!-- The standard number can also be followed by "(all parts)", this is then the end of the match. -->
+				<!-- The "\b" makes sure that other standards are also matched until the end of the "word" -->
+				<!-- Because "." is seen as a stop for "\b" and other then IEEE standards should not have "." as part of the number we dubbel check that this character together with a digit does not follow the number -->
+				<regexAnnotator annotationTypeId="standard-reference" pattern="((IEEE(\s|–|-|‑)\d{2,6}(\.\d+)*)|((ISO|IEC|IEEE|IEEEE|FprCEN|CEN|CLC|ETSI|CWA)(\s|\/|–|-|‑))+((TR|TS|PAS|SRD|Guide)(\s|\/|–|-|‑))*(\d{2,6}((–|-|‑)\d+)*))(:\d{4})?((\s\(all\sparts\))|\b)(?!\.\d)" />
+			</sequential>
+		</if>
+
+		<if condition="functions:enabled-categories-includes('provisions')">
+			<sequential>
+				<!-- inSectionScope = "ancestor::sec[@sec-type]" -->
+				<if condition="functions:block-data-value('inSectionScope')">
+					<regexAnnotator annotationTypeId="no-req-rec-per-in-scope" pattern="\b(shall|should|may)\b" ignoreCase="true" />
+				</if>
+
+				<!-- inNote = "ancestor::*[self::non-normative-note or self::non-normative-example]" -->
+				<if condition="functions:block-data-value('inNote')">
+					<regexAnnotator annotationTypeId="no-req-rec-per-in-note" pattern="\b(shall|should|may)\b" ignoreCase="true" />
+				</if>
+
+				<!-- inSection = "ancestor::sec[not(@sec-type)]" -->
+				<if condition="functions:block-data-value('inSection')">
+					<regexAnnotator annotationTypeId="use-shall" pattern="\b(need to|have to)\b" ignoreCase="true" />
+				</if>
+			</sequential>
+		</if>
+
+		<if condition="functions:enabled-categories-includes('format') and functions:block-data-value('isParagraph')">
+			<sequential>
+				<!-- TODO: We're uning the regexAnnotator as a workaround until the solution in DEV-16115 is available. -->
+				<!-- Numeric numbers -->
+				<regexAnnotator annotationTypeId="numeric-numbers" pattern="(?:\s|^)(?&lt;number&gt;[1-9]|10)(?:(\.$)|(\s|$))">
+					<mapCaptureGroup name="number" annotationTypeId="numeric-number"/>
+				</regexAnnotator>
+
+				<!-- Double quotation marks -->
+				<regexAnnotator annotationTypeId="double-quotes" pattern="(?&lt;ldquo&gt;&quot;)(?&lt;wordOrSentence&gt;[^&quot;\r\n]*)(?&lt;rdquo&gt;&quot;)" />
+				<regexAnnotator annotationTypeId="left-double-quotes-match" pattern="(?:\s|^)(?&lt;ldquo&gt;&quot;)(?:\b)">
+					<mapCaptureGroup name="ldquo" annotationTypeId="left-double-quotes"/>
+				</regexAnnotator>
+				<regexAnnotator annotationTypeId="right-double-quotes-match" pattern="(?:\b|\W)(?&lt;rdquo&gt;&quot;)(?:\b|\s|\W|$)">
+					<mapCaptureGroup name="rdquo" annotationTypeId="right-double-quotes"/>
+				</regexAnnotator>
+
+				<!-- Single quotation marks -->
+				<regexAnnotator annotationTypeId="single-quotes-match" pattern="(?:\s|^|\W)(?&lt;squotes&gt;(?&lt;lsquo&gt;&apos;)(?&lt;wordOrSentence&gt;[^&apos;\r\n]+)(?&lt;rsquo&gt;&apos;))">
+					<mapCaptureGroup name="squotes" annotationTypeId="single-quotes" />
+				</regexAnnotator>
+				<regexAnnotator annotationTypeId="left-single-quote-match" pattern="(?:\s|^)(?&lt;lsquo&gt;&apos;)(?:\b)">
+					<mapCaptureGroup name="lsquo" annotationTypeId="left-single-quote" />
+				</regexAnnotator>
+				<regexAnnotator annotationTypeId="right-single-quote-match" pattern="(?:\b|\W|^)(?&lt;rsquo&gt;&apos;)(?:\b|\s|\W|$)">
+					<mapCaptureGroup name="rsquo" annotationTypeId="right-single-quote" />
+				</regexAnnotator>
+
+				<!-- Double single quotation marks -->
+				<regexAnnotator annotationTypeId="double-single-quotes" pattern="(?&lt;ldsquo&gt;&apos;&apos;)(?&lt;wordOrSentence&gt;[^&apos;&apos;\r\n]*)(?&lt;rdsquo&gt;&apos;&apos;)" />
+				<regexAnnotator annotationTypeId="left-double-single-quotes-match" pattern="(?:\s|^)(?&lt;ldsquo&gt;&apos;&apos;)(?:\b)">
+					<mapCaptureGroup name="ldsquo" annotationTypeId="left-double-single-quotes" />
+				</regexAnnotator>
+				<regexAnnotator annotationTypeId="right-double-single-quotes-match" pattern="(?:\b|\W)(?&lt;rdsquo&gt;&apos;&apos;)(?:\b|\s|\W|$)">
+					<mapCaptureGroup name="rdsquo" annotationTypeId="right-double-single-quotes" />
+				</regexAnnotator>
+
+				<regexAnnotator annotationTypeId="correct-am-pm-notation" pattern="\b(([0-9]?[0-9]:[0-9][0-9]|[0-9])[\s]?[pa][\s,.][m][\ ,.;])|([0-9][pa][\s,.]?[m][\ ,.;])\b" ignoreCase="true" />
+			</sequential>
+		</if>
+
+		<!-- Remove singular quotation annotations if they intersect with double-quotes/single-quotes/double-single-quotes annotations -->
+		<removeIntersectingAnnotations checkAnnotationTypeIds="double-quotes" removableAnnotationTypeIds="left-double-quotes right-double-quotes right-single-quote right-double-single-quotes" />
+		<removeIntersectingAnnotations checkAnnotationTypeIds="single-quotes right-double-single-quotes" removableAnnotationTypeIds="left-single-quote right-single-quote right-double-quotes" />
+		<removeIntersectingAnnotations checkAnnotationTypeIds="double-single-quotes" removableAnnotationTypeIds="left-double-single-quotes right-double-single-quotes right-single-quote" />
+
+		<!-- Remove single-quotes annotations if they intersect with-double-single-quotes annotations -->
+		<removeIntersectingAnnotations checkAnnotationTypeIds="double-single-quotes" removableAnnotationTypeIds="single-quotes" />
+
+		<if condition="functions:enabled-categories-includes('document-structure')">
+			<if condition="not(functions:block-data-value('inNote'))">
+				<sequential>
+					<regexAnnotator annotationTypeId="use-note-element" pattern="\b^(note|notes)\b" ignoreCase="true" />
+				</sequential>
+			</if>
+		</if>
+
+		<!-- Do not warn if a standard reference, xref, or external link is already tagged -->
+		<removeTextAnnotationsIntersectingXmlElements elements="xref std ext-link" />
+
+		<!-- Remove spelling error annotation if it intersects with term-reference annotation -->
+		<removeIntersectingAnnotations checkAnnotationTypeIds="term-reference" removableAnnotationTypeIds="spelling:spelling-error" />
+
+		<removeAnnotations annotationTypeIds="left-double-quotes-match right-double-quotes-match left-double-single-quotes-match right-double-single-quotes-match single-quotes-match left-single-quote-match right-single-quote-match numeric-numbers" />
+	</sequential>
+</analysis>

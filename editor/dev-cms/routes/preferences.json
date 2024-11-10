@@ -1,0 +1,333 @@
+{
+	"preferences": {
+		"hideAnnotationTypes": {
+			"comments": false,
+			"publicationComments": false,
+			"proposals": false
+		},
+		"referenceFilters": [
+			{
+				"group": "organisations",
+				"type": "checkbox",
+				"label": "Organisation",
+				"options": [
+					{ "value": "cen", "label": "CEN", "defaultValue": true },
+					{
+						"value": "cenelec",
+						"label": "CENELEC",
+						"defaultValue": true
+					},
+					{ "value": "iec", "label": "IEC", "defaultValue": true },
+					{ "value": "iso", "label": "ISO", "defaultValue": true }
+				]
+			},
+			{
+				"group": "statuses",
+				"type": "checkbox",
+				"label": "Status",
+				"options": [
+					{
+						"value": "published",
+						"label": "Published",
+						"icon": "circle-dot",
+						"defaultValue": true
+					},
+					{
+						"value": "development",
+						"label": "Under development",
+						"icon": "circle-check"
+					},
+					{
+						"value": "withdrawn",
+						"label": "Withdrawn",
+						"icon": "circle-minus"
+					}
+				]
+			},
+			{
+				"group": "catalogueTypes",
+				"type": "checkbox",
+				"label": "Type",
+				"options": [
+					{
+						"value": "standard",
+						"label": "Standard",
+						"defaultValue": true
+					},
+					{ "value": "corrigendum", "label": "Corrigendum" },
+					{ "value": "amendment", "label": "Amendment" }
+				]
+			}
+		],
+		"permissions": {
+			"canAcceptRejectChanges": true,
+			"canAddNationalAnnotationTags": true,
+			"canAddNationalAnnotationTopics": true,
+			"canAddTags": true,
+			"canAddTopics": true,
+			"canCreateAnnotations": true,
+			"canCreateNationalComment": true,
+			"canDeleteAnnotations": true,
+			"canDeleteClauses": true,
+			"canDeleteNationalAnnotations": true,
+			"canDiscardNationalComment": true,
+			"canEditAnnotations": true,
+			"canEditNationalAnnotationType": true,
+			"canEditOthersAnnotations": true,
+			"canEditOthersReplies": true,
+			"canEditResolutions": true,
+			"canManageAnnotations": true,
+			"canOverrideNumbering": true,
+			"canQualityCheck": true,
+			"canReplyAnnotations": true,
+			"canReplyNationalAnnotations": true,
+			"canRepositionAnnotations": true,
+			"canRepositionResolvedAnnotations": true,
+			"canResolveAnnotations": true,
+			"canResolveNationalAnnotations": true,
+			"canSaveDraftResolutions": true,
+			"canUnlockClauses": true,
+			"canViewNationalAnnotationInCreatedContext": true,
+			"canViewNationalAnnotationVoteLabels": true,
+			"canVote": true,
+			"canVoteNationalAnnotations": true,
+			"enableDocumentHistory": true,
+			"enableAI": false,
+			"enableTranslation": false
+		},
+		"nationalCommentResolutionType": "national",
+		"referenceModalDateFormat": "yyyy",
+		"isCountriesWithMostCommentsVisible": false,
+		"isTenantFilterVisible": false,
+		"isObeSidebarVisible": true,
+		"isBrokenReferencesVisible": true,
+		"isReviewBalloonsInitiallyVisible": false,
+		"isTrackChangesBalloonsInitiallyVisible": false,
+		"isAdvancedProposalMergeEnabled": false,
+		"isProposedChangeInitiallyEnabled": false,
+		"processStages": [
+			{
+				"id": "en#1#ACD#DRAFT-1",
+				"label": "ACD",
+				"description": "Draft stage 1",
+				"isDisabled": true,
+				"isCurrentStage": false,
+				"isInitialFilter": false
+			},
+			{
+				"id": "en#1#20.20",
+				"label": "20.20",
+				"description": "WG consultation 1",
+				"isDisabled": false,
+				"isCurrentStage": false,
+				"isInitialFilter": false
+			},
+			{
+				"id": "en#1#20.60",
+				"label": "20.60",
+				"description": "WG consultation resolution 1",
+				"isDisabled": false,
+				"isCurrentStage": true,
+				"isInitialFilter": true
+			}
+		],
+		"publishedDocumentPreviewIframeUrl": "/iframe/preview.html",
+		"isNumberingPerClause": false,
+		"preferencesMenu": {
+			"label": "Menu",
+			"content": [
+				{
+					"type": "menu-group",
+					"content": [
+						{
+							"type": "option",
+							"label": "Enable wide screen mode",
+							"actionId": "open-wide-screen-mode"
+						},
+						{
+							"type": "option",
+							"label": "Enable commenting mode",
+							"actionId": "open-commenting-mode"
+						},
+						{
+							"type": "option",
+							"label": "Enable editing mode",
+							"actionId": "open-editing-mode"
+						},
+						{
+							"type": "option",
+							"label": "Permissions",
+							"actionId": "open-permissions"
+						},
+						{
+							"type": "option",
+							"label": "Document permissions",
+							"actionId": "open-document-permissions"
+						}
+					]
+				},
+				{
+					"type": "menu-group",
+					"content": [
+						{
+							"type": "menu",
+							"label": "Unlock clauses",
+							"content": [
+								{
+									"type": "option",
+									"label": "Unlock all clauses",
+									"actionId": "unlock-all-clauses"
+								},
+								{
+									"type": "option",
+									"label": "Unlock all my clauses",
+									"actionId": "unlock-all-my-clauses"
+								}
+							]
+						}
+					]
+				},
+				{
+					"type": "menu-group",
+					"content": [
+						{
+							"type": "option",
+							"label": "Preview in HTML",
+							"actionId": "open-preview-html",
+							"target": "blank"
+						},
+						{
+							"type": "option",
+							"label": "Export to DOCX",
+							"actionId": "export-to-docx"
+						}
+					]
+				}
+			]
+		},
+		"masheadForReview": {
+			"logoAlt": "International Electrotechnical Commission",
+			"logoUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/3/3e/International_Electrotechnical_Commission_Logo.svg/1024px-International_Electrotechnical_Commission_Logo.svg.png",
+			"title": "Online Standards Development"
+		},
+		"contentQualityCustomReplacementConfiguration": {
+			"annotationTypes": [
+				{
+					"annotationTypeId": "custom-replacements",
+					"color": "blue",
+					"icon": "flag",
+					"title": "This is a custom replacement title",
+					"categoryId": "custom"
+				}
+			],
+			"categories": [
+				{
+					"id": "custom",
+					"label": "Custom replacement dictionary"
+				}
+			]
+		},
+		"languagePairs": [
+			{
+				"sourceLanguage": "English",
+				"targetLanguage": "Dutch"
+			},
+			{
+				"sourceLanguage": "English",
+				"targetLanguage": "French"
+			},
+			{
+				"sourceLanguage": "English",
+				"targetLanguage": "German"
+			},
+			{
+				"sourceLanguage": "Chinese",
+				"targetLanguage": "Japanese"
+			},
+			{
+				"sourceLanguage": "French",
+				"targetLanguage": "German"
+			},
+			{
+				"sourceLanguage": "Swiss",
+				"targetLanguage": "Austrian"
+			}
+		],
+		"aiActions": [
+			{
+				"id": "summarize",
+				"label": "Summarize the text"
+			},
+			{
+				"id": "unicorns",
+				"label": "Generate unicorns"
+			}
+		],
+		"assetMetadataModalFields": [
+			{
+				"type": "single-select",
+				"label": "Asset type",
+				"name": "assetType",
+				"options": [
+					{
+						"label": "Technical drawing",
+						"value": "technical-drawing"
+					},
+					{ "label": "Diagram", "value": "diagram" },
+					{ "label": "Flow chart", "value": "flow-chart" }
+				],
+				"isRequired": true
+			},
+			{
+				"type": "file",
+				"label": "Display file",
+				"name": "displayFile",
+				"mimeTypes": ["image/png", "image/jpeg", "image/svg+xml"],
+				"isRequired": true
+			},
+			{
+				"type": "file",
+				"label": "Revisable file",
+				"name": "revisableFile",
+				"mimeTypes": [],
+				"isRequired": false
+			},
+			{
+				"type": "switch",
+				"label": "Contains language text",
+				"name": "containsLanguageText",
+				"labels": {
+					"true": "Yes",
+					"false": "No"
+				},
+				"isRequired": false
+			},
+			{
+				"type": "single-line-text",
+				"label": "Alternative text",
+				"name": "altText",
+				"isRequired": false
+			},
+			{
+				"type": "multi-line-text",
+				"label": "Description",
+				"name": "description",
+				"isRequired": false
+			}
+		],
+		"titleWrapLanguages": [
+			{
+				"label": "English",
+				"value": "en"
+			},
+			{
+				"label": "French",
+				"value": "fr"
+			},
+			{
+				"label": "German",
+				"value": "de"
+			}
+		]
+	}
+}

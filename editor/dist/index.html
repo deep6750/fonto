@@ -1,0 +1,653 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8" />
+		<meta name="format-detection" content="telephone=no" />
+		<meta name="google" content="notranslate" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<title>FontoXML for ISO/IEC</title>
+		<style>
+			html,
+			body {
+				background-color: rgb(243, 243, 243);
+				height: 100vh;
+				margin: 0;
+				overflow: hidden;
+				padding: 0;
+				width: 100vw;
+			}
+			#index-app-container {
+				display: flex;
+				height: 100vh;
+				margin: 0;
+				overflow: hidden;
+				padding: 0;
+				width: 100vw;
+			}
+			#index-app-root,
+			#index-app-preloader {
+				display: flex;
+				flex: 1;
+				flex-direction: column;
+				min-height: 0;
+				min-width: 0;
+			}
+			#index-app-preloader {
+				align-items: center;
+				color: #96a2a7;
+				justify-content: center;
+			}
+			#index-app-preloader > svg {
+				animation: index-app-preloader-outer 4096ms linear infinite;
+				transform-origin: 48px 48px 0px;
+			}
+			#index-app-preloader-inner-circle {
+				animation: index-app-preloader-inner 4096ms linear infinite;
+			}
+			#index-app-preloader-message-placeholder {
+				line-height: 1.5rem;
+				margin-top: 0.5rem;
+			}
+			@keyframes index-app-preloader-outer {
+				0% {
+					transform: rotate(0deg);
+				}
+				50% {
+					transform: rotate(720deg);
+				}
+				100% {
+					transform: rotate(1080deg);
+				}
+			}
+			@keyframes index-app-preloader-inner {
+				0% {
+					stroke-dashoffset: 150.79644737231007px;
+				}
+				50% {
+					stroke-dashoffset: 301.59289474462014px;
+				}
+				100% {
+					stroke-dashoffset: 150.79644737231007px;
+				}
+			}
+			#index-app-container.invisible {
+				display: none;
+			}
+			#index-font-preloader {
+				height: 1px;
+				left: 0;
+				overflow: hidden;
+				position: absolute;
+				top: 0;
+				user-select: none;
+				width: 1px;
+			}
+			#index-font-lato-regular {
+				font-family: 'Lato';
+				font-style: normal;
+				font-weight: 400;
+			}
+			#index-font-lato-bold {
+				font-family: 'Lato';
+				font-style: normal;
+				font-weight: 700;
+			}
+			#index-font-lato-italic {
+				font-family: 'Lato';
+				font-style: italic;
+				font-weight: 400;
+			}
+			#index-font-lato-bold-italic {
+				font-family: 'Lato';
+				font-style: italic;
+				font-weight: 700;
+			}
+			#index-font-source-code-pro-regular {
+				font-family: 'Source Code Pro';
+				font-style: normal;
+				font-weight: 400;
+			}
+			#index-font-source-code-pro-bold {
+				font-family: 'Source Code Pro';
+				font-style: normal;
+				font-weight: 700;
+			}
+			#index-font-source-code-pro-italic {
+				font-family: 'Source Code Pro';
+				font-style: italic;
+				font-weight: 400;
+			}
+			#index-font-source-code-pro-bold-italic {
+				font-family: 'Source Code Pro';
+				font-style: italic;
+				font-weight: 700;
+			}
+			#index-font-merriweather-regular {
+				font-family: 'Merriweather';
+				font-style: normal;
+				font-weight: 400;
+			}
+			#index-font-merriweather-bold {
+				font-family: 'Merriweather';
+				font-style: normal;
+				font-weight: 700;
+			}
+			#index-font-merriweather-italic {
+				font-family: 'Merriweather';
+				font-style: italic;
+				font-weight: 400;
+			}
+			#index-font-merriweather-bold-italic {
+				font-family: 'Merriweather';
+				font-style: italic;
+				font-weight: 700;
+			}
+			.index-error-container {
+				display: table;
+				height: 100vh;
+				margin: 0;
+				padding: 0;
+				width: 100vw;
+			}
+			.index-error-container.invisible,
+			.invisible {
+				display: none;
+			}
+			.index-error-center-container {
+				display: table-cell;
+				text-align: center;
+				vertical-align: middle;
+			}
+			.index-error {
+				background-color: rgb(255, 255, 255);
+				box-shadow: 1px 1px 20px rgba(0, 0, 0, 0.25);
+				display: inline-block;
+				max-height: 100vh;
+				max-width: 880px;
+				overflow-y: auto;
+			}
+			.index-error-content {
+				color: rgb(66, 66, 66);
+				font-family: 'Fonto Sans', Lato, 'Helvetica Neue', Helvetica, Arial, sans-serif;
+				font-size: 16px;
+				line-height: 29px;
+				padding: 40px;
+				text-align: left;
+			}
+			.index-error-header,
+			.index-error-footer {
+				text-align: center;
+			}
+			.index-error-header,
+			.index-error-body {
+				margin: 0 0 24px 0;
+			}
+			.index-error-header:last-child,
+			.index-error-body:last-child {
+				margin: 0;
+			}
+			.index-error-image {
+				height: auto;
+				margin: 0;
+				max-width: 420px;
+				width: 100%;
+			}
+			.index-error h1 {
+				font-size: 26px;
+				font-weight: 700;
+				margin: 0 0 16px 0;
+			}
+			.index-error h2 {
+				font-size: 16px;
+				font-weight: 700;
+				margin: 0 0 8px 0;
+			}
+			.index-error p {
+				margin: 0 0 16px 0;
+			}
+			.index-error p:last-child {
+				margin: 0;
+			}
+			.index-error-details-toggle {
+				color: rgb(11, 120, 208);
+				cursor: pointer;
+				margin: 0 0 16px 0;
+				user-select: none;
+			}
+			.index-error-details-toggle:hover {
+				color: rgb(0, 0, 0);
+			}
+			.index-error-details-toggle-state {
+				font-weight: 700;
+				margin: 0 2px 0 0;
+			}
+			.index-error-details {
+				overflow: hidden;
+			}
+			.index-error-browser-links {
+				margin: 0 0 16px 0;
+			}
+			.index-error-browser-links a {
+				background-color: rgb(255, 255, 255);
+				border-radius: 4px;
+				box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.16);
+				display: inline-block;
+				line-height: 0;
+				margin: 0 0 0 8px;
+				padding: 7px;
+			}
+			.index-error-browser-links a:first-child {
+				margin: 0;
+			}
+			.index-error-browser-links img {
+				height: 40px;
+				width: 40px;
+			}
+			.index-error-continue-anyway {
+				background-color: rgb(47, 46, 65);
+				border-radius: 4px;
+				color: rgb(255, 255, 255);
+				cursor: pointer;
+				display: inline-block;
+				font-size: 22px;
+				line-height: 35px;
+				padding: 12px 48px;
+				user-select: none;
+			}
+			.index-error-continue-anyway:hover {
+				background-color: rgb(65, 63, 90);
+			}
+		</style>
+		<link rel="shortcut icon" href="assets/images/favicon.ico" />
+		<link rel="stylesheet" type="text/css" href="main.css" />
+	</head>
+	<body>
+		<div id="index-font-preloader">
+			<p>
+				<span id="index-font-lato-regular">F</span>
+				<span id="index-font-lato-bold">o</span>
+				<span id="index-font-lato-italic">n</span>
+				<span id="index-font-lato-bold-italic">t</span>
+				<span id="index-font-merriweather-regular">o</span>
+				<span id="index-font-merriweather-bold">X</span>
+				<span id="index-font-merriweather-italic">M</span>
+				<span id="index-font-merriweather-bold-italic">L</span>
+				<span id="index-font-source-code-pro-regular">E</span>
+				<span id="index-font-source-code-pro-bold">d</span>
+				<span id="index-font-source-code-pro-italic">i</span>
+				<span id="index-font-source-code-pro-bold-italic">t</span>
+				<span id="index-font-fonto-sans-italic-400"></span>
+				<span id="index-font-fonto-sans-italic-700"></span>
+				<span id="index-font-fonto-sans-normal-400"></span>
+				<span id="index-font-fonto-sans-normal-700"></span>
+				<span id="index-font-fonto-serif-italic-400"></span>
+				<span id="index-font-fonto-serif-italic-700"></span>
+				<span id="index-font-fonto-serif-normal-400"></span>
+				<span id="index-font-fonto-serif-normal-700"></span>
+				<span id="index-font-fonto-mono-italic-400"></span>
+				<span id="index-font-fonto-mono-italic-700"></span>
+				<span id="index-font-fonto-mono-normal-400"></span>
+				<span id="index-font-fonto-mono-normal-700"></span>
+			</p>
+		</div>
+		<noscript>
+			<div class="index-error-container" id="index-error-no-script">
+				<div class="index-error-center-container">
+					<div class="index-error">
+						<div class="index-error-content">
+							<div class="index-error-header">
+								<img
+									alt="unsupported browser icon"
+									class="index-error-image"
+									src="./assets/images/error-unsupported-browser.png"
+								/>
+							</div>
+							<div class="index-error-body">
+								<h1>Fonto is not compatible with this device</h1>
+								<p>
+									Please open Fonto in a browser on a laptop or desktop computer
+									which supports JavaScript.
+								</p>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</noscript>
+		<div class="index-error-container invisible" id="index-error-unsupported-device">
+			<div class="index-error-center-container">
+				<div class="index-error">
+					<div class="index-error-content">
+						<div class="index-error-header">
+							<img
+								alt="unsupported device icon"
+								class="index-error-image"
+								src="./assets/images/error-unsupported-device.png"
+							/>
+						</div>
+						<div class="index-error-body">
+							<h1>Fonto is not compatible with this device</h1>
+							<p>
+								For an optimal experience, we highly recommend using a laptop or
+								desktop computer. You may also choose to continue loading Fonto,
+								however we can not guarantee you won’t run into any issues.
+							</p>
+							<div class="index-error-details-toggle">
+								<span class="index-error-details-toggle-state">
+									＋
+								</span>
+								Why am I unable to use this device?
+							</div>
+							<div class="index-error-details invisible">
+								<p>
+									Fonto needs a desktop grade computer to work as reliable and as
+									fast as possible. Also, touch screens and virtual keyboards
+									might not work as expected.
+								</p>
+							</div>
+						</div>
+						<div class="index-error-footer">
+							<div class="index-error-continue-anyway">
+								Continue anyway
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+		<div class="index-error-container invisible" id="index-error-unsupported-browser">
+			<div class="index-error-center-container">
+				<div class="index-error">
+					<div class="index-error-content">
+						<div class="index-error-header">
+							<img
+								alt="unsupported browser icon"
+								class="index-error-image"
+								src="./assets/images/error-unsupported-browser.png"
+							/>
+						</div>
+						<div class="index-error-body">
+							<h1>Fonto is not compatible with this browser</h1>
+							<p>
+								For an optimal experience, we highly recommend using the latest
+								version of one of the browsers displayed below.<br />
+								You may also choose to continue loading Fonto, however we can not
+								guarantee you won’t run into any issues.
+							</p>
+							<p>
+								Click on the icons to go to the corresponding download page.
+							</p>
+							<div class="index-error-browser-links">
+								<a href="https://www.google.com/chrome/" target="_blank">
+									<img
+										alt="Google Chrome logo"
+										src="./assets/images/browser-icon-chrome.png"
+										title="Google Chrome (preferred)"
+									/>
+								</a>
+								<a href="https://www.mozilla.org/firefox/" target="_blank">
+									<img
+										alt="Firefox logo"
+										src="./assets/images/browser-icon-firefox.png"
+										title="Firefox"
+									/>
+								</a>
+								<a href="https://www.microsoft.com/microsoft-edge" target="_blank">
+									<img
+										alt="Edge logo"
+										src="./assets/images/browser-icon-edge.png"
+										title="Edge"
+									/>
+								</a>
+								<a href="https://www.apple.com/safari/" target="_blank">
+									<img
+										alt="Safari logo"
+										src="./assets/images/browser-icon-safari.png"
+										title="Safari"
+									/>
+								</a>
+							</div>
+							<div class="index-error-details-toggle">
+								<span class="index-error-details-toggle-state">
+									＋
+								</span>
+								More about browsers
+							</div>
+							<div class="index-error-details invisible">
+								<h2>What is a browser?</h2>
+								<p>
+									A browser is a program on your computer which you can use to
+									access the internet. Well-known examples are Internet Explorer,
+									Chrome and Firefox.
+								</p>
+								<h2>How to download a new browser</h2>
+								<p>
+									You can download a browser by clicking its icon listed above.
+									Doing so will bring you to that browser's website, where you can
+									download its latest version.
+								</p>
+								<h2>How to update your browser</h2>
+								<p>
+									Instructions on how to update your browser can be found on the
+									website of that browser. Please keep in mind that company
+									computers may require support from your IT department to update
+									browsers.
+								</p>
+								<h2>Why can't I use this browser?</h2>
+								<p>
+									We make use of the latest web technologies so Fonto can work as
+									reliable and as fast as possible. These technologies are only
+									available in the latest versions of the browsers listed above.
+								</p>
+							</div>
+						</div>
+						<div class="index-error-footer">
+							<div class="index-error-continue-anyway">
+								Continue anyway
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+		<div class="invisible" id="index-app-container">
+			<div id="index-app-root">
+				<div id="index-app-preloader">
+					<svg viewbox="0 0 96 96" width="96px" height="96px">
+						<circle
+							cx="50%"
+							cy="50%"
+							r="43.75%"
+							stroke="#6ab7e6"
+							stroke-width="12px"
+							stroke-linecap="round"
+							fill="rgba(0, 0, 0, 0)"
+						></circle>
+						<circle
+							id="index-app-preloader-inner-circle"
+							cx="50%"
+							cy="50%"
+							r="43.75%"
+							stroke="#125d8f"
+							stroke-width="6px"
+							stroke-dasharray="301.59px"
+							stroke-linecap="round"
+							fill="rgba(0, 0, 0, 0)"
+						></circle>
+					</svg>
+					<div id="index-app-preloader-message-placeholder">&nbsp;</div>
+				</div>
+			</div>
+		</div>
+		<div class="index-error-container invisible" id="index-error-bootstrap">
+			<div class="index-error-center-container">
+				<div class="index-error">
+					<div class="index-error-content">
+						<div class="index-error-header">
+							<img
+								alt="bootstrap error icon"
+								class="index-error-image"
+								src="./assets/images/error-bootstrap.png"
+							/>
+						</div>
+						<div class="index-error-body">
+							<h1>Fonto failed to load</h1>
+							<p>
+								An error occurred while Fonto was loading. Make sure your browser
+								meets Fonto's minimum requirements. If it does and this issue
+								persists, please check the developer console for technical details
+								and/or report the issue.
+							</p>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+		<script>
+			'use strict';
+
+			(function bootstrapFonto(skipDeviceAndBrowserChecks) {
+				function makeInvisible(selector) {
+					var element = document.querySelector(selector);
+					element.className = element.className + ' invisible';
+				}
+
+				function makeVisible(selector) {
+					var element = document.querySelector(selector);
+					element.className = element.className.replace('invisible', '');
+
+					var errorDetails = document.querySelector(selector + ' .index-error-details');
+					if (errorDetails) {
+						var errorDetailsToggle = document.querySelector(selector + ' .index-error-details-toggle');
+						var errorDetailsToggleState = document.querySelector(selector + ' .index-error-details-toggle-state');
+
+						errorDetailsToggle.addEventListener('click', function() {
+							var makeVisible = errorDetails.className.indexOf('invisible') !== -1;
+
+							errorDetails.className = makeVisible
+								? errorDetails.className.replace(' invisible', '')
+								: errorDetails.className + ' invisible';
+
+							errorDetailsToggleState.innerHTML = makeVisible ? '—' : '＋';
+						});
+					}
+
+					var continueButton = document.querySelector(selector + ' .index-error-continue-anyway');
+					if (continueButton) {
+						continueButton.addEventListener('click', function() {
+							makeInvisible(selector);
+							bootstrapFonto(true);
+						});
+					}
+				}
+
+				function removeFromDOM(selector) {
+					var element = document.querySelector(selector);
+					element.parentNode.removeChild(element);
+				}
+
+				function showFontoError(error) {
+					removeFromDOM('#index-app-container');
+					makeVisible('#index-error-bootstrap');
+					error && window.console && console.error(error);
+					window.onerror = null;
+				}
+				window.showFontoError = showFontoError;
+
+				function onError() {
+					showFontoError();
+				}
+				window.onerror = onError;
+
+				function isMobileBrowser() {
+					if (window.sessionStorage && window.sessionStorage.desktop) {
+						return false;
+					} else if (window.localStorage && window.localStorage.mobile) {
+						return true;
+					} else {
+						return navigator.userAgent.match(
+							/iphone|ipad|ipod|android|blackberry|nokia|opera mini|windows mobile|windows phone|iemobile|webos/gi
+						);
+					}
+				}
+
+				if (!skipDeviceAndBrowserChecks && isMobileBrowser()) {
+					makeVisible('#index-error-unsupported-device');
+					return;
+				}
+
+				function getMajorVersion(userAgent, versionKey) {
+					return parseInt(userAgent.split(' ' + versionKey + '/')[1].split('.')[0], 10);
+				}
+
+				function getBrowserInfo(userAgent) {
+					// NOTE: The if/else order is of much importance here.
+					if (userAgent.indexOf(' Edge/') !== -1) {
+						return { name: 'edge', version: getMajorVersion(userAgent, 'Edge') };
+					} else if (userAgent.indexOf(' Edg/') !== -1) {
+						return { name: 'edge', version: getMajorVersion(userAgent, 'Edg') };
+					} else if (userAgent.indexOf(' Chrome/') !== -1) {
+						return { name: 'chrome', version: getMajorVersion(userAgent, 'Chrome') };
+					} else if (
+						userAgent.indexOf(' Safari/') !== -1 &&
+						userAgent.indexOf(' Version/') !== -1
+					) {
+						return { name: 'safari', version: getMajorVersion(userAgent, 'Version') };
+					} else if (userAgent.indexOf(' Firefox/') !== -1) {
+						return { name: 'firefox', version: getMajorVersion(userAgent, 'Firefox') };
+					}
+					return undefined;
+				}
+
+				function getSupportedBrowsers() {
+					return {"chrome":"75","edge":"15","firefox":"68","safari":"12"};
+				}
+
+				function isSupportedBrowser() {
+					var supportedBrowsers = getSupportedBrowsers();
+					var browserInfo = getBrowserInfo(navigator.userAgent);
+					return (
+						browserInfo &&
+						!!supportedBrowsers[browserInfo.name] &&
+						browserInfo.version >= supportedBrowsers[browserInfo.name]
+					);
+				}
+
+				if (!skipDeviceAndBrowserChecks && !isSupportedBrowser()) {
+					makeVisible('#index-error-unsupported-browser');
+					return;
+				}
+
+				makeVisible('#index-app-container');
+
+				function startFontoBootstrap() {
+					window.onerror = null;
+					delete window.startFontoBootstrap;
+				}
+				window.startFontoBootstrap = startFontoBootstrap;
+
+				function completeFontoBootstrap() {
+					removeFromDOM('#index-error-unsupported-device');
+					removeFromDOM('#index-error-unsupported-browser');
+					removeFromDOM('#index-font-preloader');
+					removeFromDOM('#index-error-bootstrap');
+					delete window.completeFontoBootstrap;
+					delete window.showFontoError;
+				}
+				window.completeFontoBootstrap = completeFontoBootstrap;
+
+				var jsFiles = [];
+				jsFiles.push('main.js');
+
+				for (var i = 0; i < jsFiles.length; i++) {
+					var scriptElement = document.createElement('script');
+					scriptElement.defer = true;
+					scriptElement.charset = 'utf-8';
+					scriptElement.src = jsFiles[i];
+					scriptElement.type = 'text/javascript';
+					document.getElementsByTagName('body')[0].appendChild(scriptElement);
+				}
+			})(false);
+		</script>
+	</body>
+</html>

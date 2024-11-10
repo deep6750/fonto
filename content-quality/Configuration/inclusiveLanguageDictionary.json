@@ -1,0 +1,55 @@
+{
+	"inclusive-language": [
+		{
+			"pattern": "businessman"
+		},
+		{
+			"pattern": "chairman"
+		},
+		{
+			"pattern": "craftsman"
+		},
+		{
+			"pattern": "foreman"
+		},
+		{
+			"pattern": "man"
+		},
+		{
+			"pattern": "man a project"
+		},
+		{
+			"pattern": "man-made"
+		},
+		{
+			"pattern": "mankind"
+		},
+		{
+			"pattern": "manpower"
+		},
+		{
+			"pattern": "middleman"
+		},
+		{
+			"pattern": "mother tongue"
+		},
+		{
+			"pattern": "policeman"
+		},
+		{
+			"pattern": "policemen"
+		},
+		{
+			"pattern": "spokesman"
+		},
+		{
+			"pattern": "the common man"
+		},
+		{
+			"pattern": "workman"
+		},
+		{
+			"pattern": "workmanship"
+		}
+	]
+}

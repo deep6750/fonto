@@ -1,0 +1,75 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html>
+	<head>
+		<script>
+			// Creates the WIRIS editor instance, this assumes the wiris editor is available in the global scope
+			function initializeEditor () {
+				var editor = window.com.wiris.jsEditor.JsEditor.newInstance(window.getInitializationParameters()),
+					editorModel = editor.getEditorModel();
+
+				editorModel.addEditorListener({
+					caretPositionChanged: function () {
+					},
+					clipboardChanged: function () {
+					},
+					contentChanged: function () {
+						if (!window.updateContentModel) {
+							return;
+						}
+
+						var contentModel = {
+							isFormulaEmpty: editor.isFormulaEmpty(),
+							mathml: editor.getMathML()
+						};
+						window.updateContentModel(contentModel);
+					},
+					styleChanged: function () {
+					},
+					transformationReceived: function () {
+					}
+				});
+				editor.insertInto(document.getElementById('editorContainer'));
+				if (window.getInitialContent) {
+					editor.setMathML(window.getInitialContent());
+				}
+			}
+
+			// http://stackoverflow.com/questions/901115/how-can-i-get-query-string-values-in-javascript
+			function getParameterByName (name) {
+				name = name.replace(/[\[]/, "\\[").replace(/[\]]/, "\\]");
+				var regex = new RegExp("[\\?&]" + name + "=([^&#]*)"),
+				results = regex.exec(location.search);
+				return results === null ? "" : decodeURIComponent(results[1].replace(/\+/g, " "));
+			}
+
+			// http://stackoverflow.com/questions/950087/include-a-javascript-file-in-another-javascript-file
+			function loadScript (url, callback)
+			{
+				// Adding the script tag to the head as suggested before
+				var head = document.getElementsByTagName('head')[0];
+				var script = document.createElement('script');
+				script.type = 'text/javascript';
+				script.src = url;
+
+				// Then bind the event to the callback function.
+				// There are several events for cross browser compatibility.
+				script.onreadystatechange = callback;
+				script.onload = callback;
+
+				// Fire the loading
+				head.appendChild(script);
+			}
+
+			window.onload = function () {
+				// Get the WIRIS editor script url, injected via wiris-editor-host-template.jade
+				var wirisEditorScriptUrl = getParameterByName('wirisEditorScriptUrl');
+
+				// Load the correct wiris script and after it is loaded invoke initializeEditor
+				loadScript(wirisEditorScriptUrl, initializeEditor);
+			};
+		</script>
+	</head>
+	<body>
+		<div id="editorContainer"></div>
+	</body>
+</html>

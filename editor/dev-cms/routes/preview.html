@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+
+	<head>
+		<meta charset="UTF-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">
+		<meta http-equiv="X-UA-Compatible" content="ie=edge">
+		<title>Preview</title>
+		<style>
+			html {
+				margin: 0;
+				padding: 0;
+			};
+			body {
+				margin: 0;
+				padding: 16px;
+			};
+			.selectable {
+				cursor: pointer;
+			}
+			.selectable:hover {
+				outline: dashed 2px #fdd835;
+			}
+			.isSelected {
+				outline: solid 2px #fdd835;
+			}
+		</style>
+	</head>
+
+	<body>
+		<h1><!-- {{ title }} --></h1>
+		<section class="selectable" id="sec_1">
+			<h2>Clause 1</h2>
+			<table class="selectable" id="tab_1" border="1">
+				<caption>Table 1</caption>
+				<tr>
+					<td>cell</td>
+					<td>cell</td>
+				</tr>
+				<tr>
+					<td>cell</td>
+					<td>cell</td>
+				</tr>
+			</table>
+			<section class="selectable" id="sec_1.1">
+				<h3>Clause 1.1</h2>
+				<p>Some content</p>
+			</section>
+		</section>
+		<script>
+			function selectElement(event, id) {
+				event.stopPropagation()
+
+				const currentElement = document.getElementById(id);
+				if (currentElement.className === 'isSelected') {
+					// is already selected
+					return;
+				}
+
+				// First remove isSelected class from other elements
+				for(let element of document.getElementsByClassName("isSelected")) {
+					element.className = "selectable";
+				}
+
+				currentElement.className = "isSelected";
+
+				window.parent.postMessage({
+					type: "selected-element",
+					elementId: id
+				}, '/');
+			}
+
+			const urlParams = new URLSearchParams(window.location.search);
+
+			const selectableElements = document.getElementsByClassName("selectable")
+
+			for(let i = selectableElements.length - 1; i >= 0; i--) {
+				const element = selectableElements[i]
+				if (urlParams.has('isPreview') && urlParams.get('isPreview')) {
+					element.classList.remove("selectable")
+					continue;
+				}
+				element.addEventListener("click", event => selectElement(event, element.getAttribute('id')));
+			}
+
+			if (urlParams.has('elementId')) {
+				var initialElement = document.getElementById(urlParams.get('elementId'));
+				initialElement.className = "isSelected";
+			}
+		</script>
+	</body>
+
+</html>

@@ -1,0 +1,225 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<standard xml:base="/std/iso/81286/en/81286.xml">
+	<as:front-ref as:href="chunks/front.xml"
+		xmlns:as="http://niso-sts-authoring-solution/authoring-schema">
+		<as:sec-ref as:href="chunks/id-e98de87c-3682-4000-9f67-f99855fb00b0.xml">
+			<as:outline>
+				<title>Foreword</title>
+			</as:outline>
+		</as:sec-ref>
+		<as:sec-ref as:href="chunks/id-ca7d8add-14d5-4506-b475-f8d08f9ae0a2.xml">
+			<as:outline>
+				<title>Introduction</title>
+			</as:outline>
+			<as:sec-ref as:href="chunks/id-8cddc3f1-dfb2-4fe8-ba94-d31ef61f21ef.xml">
+				<as:outline>
+					<title>Overview</title>
+				</as:outline>
+			</as:sec-ref>
+			<as:sec-ref as:href="chunks/id-31ffe900-351c-4564-9b0f-a3110b48cecb.xml">
+				<as:outline>
+					<title>Benefits</title>
+				</as:outline>
+			</as:sec-ref>
+		</as:sec-ref>
+	</as:front-ref>
+	<as:body-ref as:href="chunks/body.xml"
+		xmlns:as="http://niso-sts-authoring-solution/authoring-schema">
+		<as:outline>
+			<title>				<?fontoxml-text-placeholder text="type the title"?></title>
+		</as:outline>
+		<as:sec-ref as:href="chunks/id-5fd2afc4-64c3-409d-80d3-0a6b35594f8a.xml">
+			<as:outline>
+				<title>Scope</title>
+			</as:outline>
+		</as:sec-ref>
+		<as:sec-ref as:href="chunks/id-6bbb6cd7-e534-476a-a6ea-8caa037ab037.xml">
+			<as:outline>
+				<title>Normative references</title>
+			</as:outline>
+		</as:sec-ref>
+		<as:sec-ref as:href="chunks/id-a7737079-0622-424d-b74d-8009374af2d3.xml">
+			<as:outline>
+				<title>Terms, definitions, and abbreviations</title>
+			</as:outline>
+			<as:sec-ref as:href="chunks/id-0f6fdc89-ec8f-4b91-9e1f-7a1f2f95e312.xml">
+				<as:outline>
+					<title>Terms, definitions and abbreviations</title>
+				</as:outline>
+				<as:term-sec-ref as:href="chunks/id-a4f8c8a9-df77-4b54-80ec-f1f7a5fabfee.xml">
+					<as:outline>
+						<tbx:term xmlns:tbx="urn:iso:std:iso:30042:ed-1">energy management performance score</tbx:term>
+					</as:outline>
+				</as:term-sec-ref>
+				<as:term-sec-ref as:href="chunks/id-f4e898fb-a527-4c34-b826-151f8bd3c720.xml">
+					<as:outline>
+						<tbx:term xmlns:tbx="urn:iso:std:iso:30042:ed-1">structure management score</tbx:term>
+					</as:outline>
+				</as:term-sec-ref>
+				<as:term-sec-ref as:href="chunks/id-843e85bb-9756-4472-a116-53cb45805d51.xml">
+					<as:outline>
+						<tbx:term xmlns:tbx="urn:iso:std:iso:30042:ed-1">operation management score</tbx:term>
+					</as:outline>
+				</as:term-sec-ref>
+				<as:term-sec-ref as:href="chunks/id-5423d648-2fc2-41b5-b69a-4e3301f29249.xml">
+					<as:outline>
+						<tbx:term xmlns:tbx="urn:iso:std:iso:30042:ed-1">target achievement score</tbx:term>
+					</as:outline>
+				</as:term-sec-ref>
+				<as:term-sec-ref as:href="chunks/id-c08dd5c8-83c6-4e20-8aba-3d85ef1b351a.xml">
+					<as:outline>
+						<tbx:term xmlns:tbx="urn:iso:std:iso:30042:ed-1">significant energy use</tbx:term>
+					</as:outline>
+				</as:term-sec-ref>
+			</as:sec-ref>
+			<as:sec-ref as:href="chunks/id-efd2c9ce-12dc-4469-ab7b-d687f9db11dc.xml">
+				<as:outline>
+					<title>Abbreviated terms</title>
+				</as:outline>
+			</as:sec-ref>
+		</as:sec-ref>
+		<as:sec-ref as:href="chunks/id-aea231e0-136a-459d-ba2f-787313c5541b.xml">
+			<as:outline>
+				<title>Context of the organization intended to measure EMPS</title>
+			</as:outline>
+			<as:sec-ref as:href="chunks/id-9e0f2799-5651-4097-8ea3-d04813810e12.xml">
+				<as:outline>
+					<title>Understanding the objective of EMPS measurement</title>
+				</as:outline>
+			</as:sec-ref>
+			<as:sec-ref as:href="chunks/id-79ac3c64-d7c1-4696-8742-52514a66c3ce.xml">
+				<as:outline>
+					<title>Determination of boundary for EMPS measurement</title>
+				</as:outline>
+			</as:sec-ref>
+		</as:sec-ref>
+		<as:sec-ref as:href="chunks/id-a34ffefa-74a2-4182-83a5-f62ac08caeaf.xml">
+			<as:outline>
+				<title>Overview of measurement of EMPS</title>
+			</as:outline>
+			<as:sec-ref as:href="chunks/id-915c8873-b2a2-40bc-a4dc-44676d6b9a71.xml">
+				<as:outline>
+					<title>Structure of aspects for EMPS</title>
+				</as:outline>
+			</as:sec-ref>
+			<as:sec-ref as:href="chunks/id-94a51d75-f5bb-4ac3-ae78-f57c55f2d142.xml">
+				<as:outline>
+					<title>Presentation of status</title>
+				</as:outline>
+			</as:sec-ref>
+		</as:sec-ref>
+		<as:sec-ref as:href="chunks/id-d9e6c0e3-9620-4cf6-91b7-a3be7ec7277c.xml">
+			<as:outline>
+				<title>Evaluation of EMPS</title>
+			</as:outline>
+			<as:sec-ref as:href="chunks/id-431dbd8a-a9f1-400b-b83e-39549baf262d.xml">
+				<as:outline>
+					<title>General</title>
+				</as:outline>
+			</as:sec-ref>
+			<as:sec-ref as:href="chunks/id-402426d0-ca9d-4121-b37a-a4933b6d34e3.xml">
+				<as:outline>
+					<title>Evaluation of SMS</title>
+				</as:outline>
+			</as:sec-ref>
+			<as:sec-ref as:href="chunks/id-abefcd2d-3d52-4835-817d-6022f141e8e0.xml">
+				<as:outline>
+					<title>Evaluation of OMS</title>
+				</as:outline>
+			</as:sec-ref>
+			<as:sec-ref as:href="chunks/id-8845f139-5bb4-4dae-b5bb-f3f887ff85ca.xml">
+				<as:outline>
+					<title>Evaluation of TAS</title>
+				</as:outline>
+			</as:sec-ref>
+		</as:sec-ref>
+		<as:sec-ref as:href="chunks/id-ecc62602-744c-43d8-b0bb-30ec1fe10c91.xml">
+			<as:outline>
+				<title>Calculation method for the SMS</title>
+			</as:outline>
+			<as:sec-ref as:href="chunks/id-3ff4fad9-4997-496a-8b76-34b52c2e064f.xml">
+				<as:outline>
+					<title>General</title>
+				</as:outline>
+			</as:sec-ref>
+			<as:sec-ref as:href="chunks/id-d1540810-0da6-4530-94e3-ab30ee43c8ae.xml">
+				<as:outline>
+					<title>Basic items for SMS</title>
+				</as:outline>
+			</as:sec-ref>
+			<as:sec-ref as:href="chunks/id-98ba6fe1-7bbb-4594-9557-c395158a0201.xml">
+				<as:outline>
+					<title>Scoring method for the basic component of SMS</title>
+				</as:outline>
+			</as:sec-ref>
+		</as:sec-ref>
+		<as:sec-ref as:href="chunks/id-1d482fc2-1319-4f83-a52b-5ac894e7b156.xml">
+			<as:outline>
+				<title>Calculation method for the OMS</title>
+			</as:outline>
+			<as:sec-ref as:href="chunks/id-e2763f61-62c7-4989-acf1-512af6899157.xml">
+				<as:outline>
+					<title>General</title>
+				</as:outline>
+				<as:sec-ref as:href="chunks/id-2226d5a2-3cb9-4b2e-a16b-f311919d8074.xml"/>
+			</as:sec-ref>
+			<as:sec-ref as:href="chunks/id-4e2b4b91-4c14-4aa4-849f-f2ba1b0b27d3.xml">
+				<as:outline>
+					<title>Basic items for OMS</title>
+				</as:outline>
+			</as:sec-ref>
+		</as:sec-ref>
+		<as:sec-ref as:href="chunks/id-6523a8e6-515a-4e8f-94f7-b3eeb90720a1.xml">
+			<as:outline>
+				<title>Calculation method for the TAS</title>
+			</as:outline>
+			<as:sec-ref as:href="chunks/id-6ec76292-346a-4e91-a2d3-35d87dd3e861.xml">
+				<as:outline>
+					<title>Basic items for TAS</title>
+				</as:outline>
+			</as:sec-ref>
+		</as:sec-ref>
+		<as:sec-ref as:href="chunks/id-d0accc1a-d1de-43a8-821d-8e9d291002b5.xml">
+			<as:outline>
+				<title>Update the EMPS</title>
+			</as:outline>
+		</as:sec-ref>
+	</as:body-ref>
+	<back>
+		<app-group>
+			<title>				<?fontoxml-change-addition-start author-id="deann.desai@gatech.edu" change-id="7a264eda-6618-4a52-8dfe-d8a94f5aea2e" timestamp="1628087301926"?>Informative Annexes				<?fontoxml-change-addition-end change-id="7a264eda-6618-4a52-8dfe-d8a94f5aea2e"?></title>
+			<as:app-ref as:href="chunks/id-4390a385-c120-4142-88f2-9aa4d5669a59.xml"
+				xmlns:as="http://niso-sts-authoring-solution/authoring-schema">
+				<as:outline>
+					<title>						<?fontoxml-text-placeholder text="type the title"?></title>
+				</as:outline>
+			</as:app-ref>
+			<as:app-ref as:href="chunks/id-5f21bd98-c4c7-4144-b9b5-36217b63c8b9.xml"
+				xmlns:as="http://niso-sts-authoring-solution/authoring-schema">
+				<as:outline>
+					<title>						<?fontoxml-text-placeholder text="type the title"?></title>
+				</as:outline>
+			</as:app-ref>
+			<as:app-ref as:href="chunks/id-ba1abecf-9df3-41c4-9591-f65cc991ffd5.xml"
+				xmlns:as="http://niso-sts-authoring-solution/authoring-schema"/>
+			<as:app-ref as:href="chunks/id-4ff03454-a692-4fbe-8bb4-7b6d36fab4ef.xml"
+				xmlns:as="http://niso-sts-authoring-solution/authoring-schema">
+				<as:outline>
+					<title>Recommended examples of operational control parameters</title>
+				</as:outline>
+			</as:app-ref>
+			<as:app-ref as:href="chunks/id-7ed36d6b-dfdd-417e-a78b-fae95b057f9d.xml"
+				xmlns:as="http://niso-sts-authoring-solution/authoring-schema">
+				<as:outline>
+					<title>Relationship with other International Standards related to EnMS</title>
+				</as:outline>
+			</as:app-ref>
+		</app-group>
+		<as:ref-list-ref as:href="chunks/id-317b9713-f9a2-4932-b17a-1b04b4d78a98.xml"
+			xmlns:as="http://niso-sts-authoring-solution/authoring-schema">
+			<as:outline>
+				<title>Energy savings — Determination of energy savings in organizations</title>
+			</as:outline>
+		</as:ref-list-ref>
+	</back>
+</standard>

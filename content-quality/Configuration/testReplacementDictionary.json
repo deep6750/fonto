@@ -1,0 +1,9 @@
+{
+	"suggestions": [
+		{
+			"pattern": "Hello",
+			"replacement": "Bye",
+			"description": "This is a custom replacement!"
+		}
+	]
+}

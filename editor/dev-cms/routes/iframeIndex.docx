@@ -1,0 +1,106 @@
+<html>
+	<head>
+		<title>Fonto (iFrame mode)</title>
+		<style>
+			body,
+			html,
+			iframe {
+				border: none;
+				margin: 0px;
+				padding: 0px;
+			}
+			iframe {
+				height: calc(100vh - 20px);
+			}
+			a,
+			b {
+				padding: 4px;
+			}
+			.hide {
+				display: none;
+			}
+			.toolbar {
+				height: 20px;
+			}
+		</style>
+	</head>
+	<body>
+		<script>
+			window.addEventListener('message', function (event) {
+				if (!event || !event.data || event.origin !== window.location.origin) {
+					return;
+				}
+
+				// Open review route
+				if (event.data.type === 'execute-action' && event.data.actionId === 'open-commenting-mode'){
+					const scopeString = document.getElementById('fonto').src.replace("#/editor", "#/review");
+					document.getElementById('fonto').src = scopeString;
+					document.getElementById('fonto').focus();
+					return;
+ 				}
+
+				// Open editor route
+				if (event.data.type === 'execute-action' && event.data.actionId === 'open-editing-mode'){
+					const scopeString = document.getElementById('fonto').src.replace("#/review", "#/editor");
+					document.getElementById('fonto').src = scopeString;
+					document.getElementById('fonto').focus();
+					return;
+ 				}
+
+				// Test postMessage with type 'action-failed'
+				if (event.data.type === 'execute-action' && event.data.actionId === 'unlock-all-my-clauses'){
+					const actionFailed = () => {
+						window.postMessage({  actionId: event.data.actionId, type: 'action-failed', }, '/');
+					}
+					actionFailed();
+					return;
+ 				}
+				if (event.data.type === 'execute-action' && event.data.actionId === 'unlock-all-clauses'){
+					window.postMessage({ actionId: event.data.actionId, type: 'action-received', }, '/');
+
+					const actionFailed = () => {
+						window.postMessage({  actionId: event.data.actionId, errorMessage: 'Custom error message', type: 'action-failed', }, '/');
+					}
+					setTimeout(actionFailed, 5000);
+					return;
+ 				}
+
+				// Test postMessage with type 'action-executed'
+				if (event.data.type === 'execute-action') {
+					window.postMessage({ actionId: event.data.actionId, type: 'action-received', }, '/');
+
+					const actionExecuted = () => {
+						window.postMessage({  actionId: event.data.actionId, type: 'action-executed', }, '/');
+					}
+					setTimeout(actionExecuted, 5000);
+				}
+			});
+
+			function requestEditorOpen() {
+				document.getElementById('fonto-open').classList.add('hide');
+				document.getElementById('fonto').src =
+					'/?scope=' + '${SCOPE_STRING}';
+				document.getElementById('fonto').classList.remove('hide');
+				document.getElementById('fonto').focus();
+			}
+
+			window.onload = function () {
+				document.getElementById('fonto-open').onclick =
+					requestEditorOpen;
+				requestEditorOpen();
+			};
+		</script>
+
+		<div id="toolbar">
+			<b>Fonto (iFrame mode)</b>
+			<a id="fonto-open" class="hide" href="#">Open</a>
+		</div>
+		<iframe
+			id="fonto"
+			class="hide"
+			src="about:blank"
+			width="100%"
+			height="100%"
+		/>
+	</body>
+</html>

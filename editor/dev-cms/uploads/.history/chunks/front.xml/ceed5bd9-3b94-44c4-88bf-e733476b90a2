@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?fontoxml-author author-id="deann.desai@gatech.edu" name="Deann Desai" role-id=": leader: "?>
+<front>
+  <std-meta std-meta-type="international">
+    <title-wrap xml:lang="en">
+      <main>Energy management system ―Measurement of energy management progress</main>
+      <full>Energy management system ―Measurement of energy management progress</full>
+    </title-wrap>
+    <title-wrap xml:lang="fr">
+      <main>Titre manque</main>
+      <full>Titre manque</full>
+    </title-wrap>
+    <proj-id>81286</proj-id>
+    <release-version>CD</release-version>
+    <std-ident>
+      <originator>ISO</originator>
+      <doc-type>IS</doc-type>
+      <doc-number>50011</doc-number>
+      <edition>1</edition>
+      <version>1</version>
+    </std-ident>
+    <std-org std-org-type="sdo">
+      <std-org-abbrev>ISO</std-org-abbrev>
+    </std-org>
+    <content-language>en</content-language>
+    <std-ref type="dated">ISO/CD 50011</std-ref>
+    <std-ref type="undated">ISO/CD 50011</std-ref>
+    <doc-ref>ISO/CD 50011(en)</doc-ref>
+    <comm-ref>ISO/TC 301</comm-ref>
+    <secretariat>ANSI</secretariat>
+    <permissions>
+      <copyright-statement>All rights reserved</copyright-statement>
+      <copyright-year>2021</copyright-year>
+      <copyright-holder>ISO</copyright-holder>
+    </permissions>
+  </std-meta>
+</front>

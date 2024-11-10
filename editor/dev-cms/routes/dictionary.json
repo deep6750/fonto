@@ -1,0 +1,124 @@
+{
+	"terms": [
+		{
+			"pattern": "antenna",
+			"documentId": "iec/cispr16-1-4{ed4.0}en/0002-body/0003-sec/0001-sec/0001-term-sec.xml"
+		},
+		{
+			"pattern": "antenna factor",
+			"documentId": "iec/cispr16-1-4{ed4.0}en/0002-body/0003-sec/0001-sec/0002-term-sec.xml"
+		},
+		{
+			"pattern": "antenna pair reference site attenuation",
+			"documentId": "iec/cispr16-1-4{ed4.0}en/0002-body/0003-sec/0001-sec/0003-term-sec.xml"
+		},
+		{
+			"pattern": "antenna reference point",
+			"documentId": "iec/cispr16-1-4{ed4.0}en/0002-body/0003-sec/0001-sec/0004-term-sec.xml"
+		},
+		{
+			"pattern": "balun",
+			"documentId": "iec/cispr16-1-4{ed4.0}en/0002-body/0003-sec/0001-sec/0005-term-sec.xml"
+		},
+		{
+			"pattern": "calibration test site",
+			"documentId": "iec/cispr16-1-4{ed4.0}en/0002-body/0003-sec/0001-sec/0006-term-sec.xml"
+		},
+		{
+			"pattern": "common mode absorption device",
+			"documentId": "iec/cispr16-1-4{ed4.0}en/0002-body/0003-sec/0001-sec/0007-term-sec.xml"
+		},
+		{
+			"pattern": "compliance test site",
+			"documentId": "iec/cispr16-1-4{ed4.0}en/0002-body/0003-sec/0001-sec/0008-term-sec.xml"
+		},
+		{
+			"pattern": "cross-polar response",
+			"documentId": "iec/cispr16-1-4{ed4.0}en/0002-body/0003-sec/0001-sec/0009-term-sec.xml"
+		},
+		{
+			"pattern": "EUT volume",
+			"documentId": "iec/cispr16-1-4{ed4.0}en/0002-body/0003-sec/0001-sec/0010-term-sec.xml"
+		},
+		{
+			"pattern": "fully-anechoic room",
+			"documentId": "iec/cispr16-1-4{ed4.0}en/0002-body/0003-sec/0001-sec/0011-term-sec.xml"
+		},
+		{
+			"pattern": "hybrid antenna",
+			"documentId": "iec/cispr16-1-4{ed4.0}en/0002-body/0003-sec/0001-sec/0012-term-sec.xml"
+		},
+		{
+			"pattern": "ideal open-area test site",
+			"documentId": "iec/cispr16-1-4{ed4.0}en/0002-body/0003-sec/0001-sec/0013-term-sec.xml"
+		},
+		{
+			"pattern": "insertion loss",
+			"documentId": "iec/cispr16-1-4{ed4.0}en/0002-body/0003-sec/0001-sec/0014-term-sec.xml"
+		},
+		{
+			"pattern": "low-uncertainty antenna",
+			"documentId": "iec/cispr16-1-4{ed4.0}en/0002-body/0003-sec/0001-sec/0015-term-sec.xml"
+		},
+		{
+			"pattern": "mechanical boresight",
+			"documentId": "iec/cispr16-1-4{ed4.0}en/0002-body/0003-sec/0001-sec/0016-term-sec.xml"
+		},
+		{
+			"pattern": "null",
+			"documentId": "iec/cispr16-1-4{ed4.0}en/0002-body/0003-sec/0001-sec/0017-term-sec.xml"
+		},
+		{
+			"pattern": "quasi free-space test site",
+			"documentId": "iec/cispr16-1-4{ed4.0}en/0002-body/0003-sec/0001-sec/0018-term-sec.xml"
+		},
+		{
+			"pattern": "reference test site",
+			"documentId": "iec/cispr16-1-4{ed4.0}en/0002-body/0003-sec/0001-sec/0019-term-sec.xml"
+		},
+		{
+			"pattern": "reflection coefficient",
+			"documentId": "iec/cispr16-1-4{ed4.0}en/0002-body/0003-sec/0001-sec/0020-term-sec.xml"
+		},
+		{
+			"pattern": "resonant dipole antenna",
+			"documentId": "iec/cispr16-1-4{ed4.0}en/0002-body/0003-sec/0001-sec/0021-term-sec.xml"
+		},
+		{
+			"pattern": "scattering parameters",
+			"documentId": "iec/cispr16-1-4{ed4.0}en/0002-body/0003-sec/0001-sec/0022-term-sec.xml"
+		},
+		{
+			"pattern": "semi-anechoic chamber",
+			"documentId": "iec/cispr16-1-4{ed4.0}en/0002-body/0003-sec/0001-sec/0023-term-sec.xml"
+		},
+		{
+			"pattern": "short-open-load-through calibration method",
+			"documentId": "iec/cispr16-1-4{ed4.0}en/0002-body/0003-sec/0001-sec/0024-term-sec.xml"
+		},
+		{
+			"pattern": "site attenuation",
+			"documentId": "iec/cispr16-1-4{ed4.0}en/0002-body/0003-sec/0001-sec/0025-term-sec.xml"
+		},
+		{
+			"pattern": "site insertion loss",
+			"documentId": "iec/cispr16-1-4{ed4.0}en/0002-body/0003-sec/0001-sec/0026-term-sec.xml"
+		},
+		{
+			"pattern": "test volume",
+			"documentId": "iec/cispr16-1-4{ed4.0}en/0002-body/0003-sec/0001-sec/0027-term-sec.xml"
+		},
+		{
+			"pattern": "through-reflect-line (TRL) calibration",
+			"documentId": "iec/cispr16-1-4{ed4.0}en/0002-body/0003-sec/0001-sec/0028-term-sec.xml"
+		},
+		{
+			"pattern": "vector network analyzer",
+			"documentId": "iec/cispr16-1-4{ed4.0}en/0002-body/0003-sec/0001-sec/0029-term-sec.xml"
+		},
+		{
+			"pattern": "non existing",
+			"documentId": "non-existing-documentId"
+		}
+	]
+}

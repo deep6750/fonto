@@ -1,0 +1,228 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<sx:schemaExperience xmlns:sx="http://schemas.fontoxml.com/document-history/2.0/schema-experience.xsd"
+	xmlns:tbx="urn:iso:std:iso:30042:ed-1"
+	xmlns:mml="http://www.w3.org/1998/Math/MathML"
+	xmlns:as="http://niso-sts-authoring-solution/authoring-schema">
+	<sx:configureAsSheetFrame selector="self::app" />
+	<sx:configureAsSheetFrame selector="self::app-group" />
+	<sx:configureAsSheetFrame selector="self::fn-group" />
+	<sx:configureAsSheetFrame selector="self::index" />
+	<sx:configureAsSheetFrame selector="self::standard" />
+	<sx:configureAsSheetFrame selector="self::front" />
+	<sx:configureAsSheetFrame selector="self::sec" />
+	<sx:configureAsSheetFrame selector="self::term-sec" />
+
+	<sx:configureAsStructure selector='self::back' />
+	<sx:configureAsStructure selector='self::article-meta' />
+	<sx:configureAsStructure selector='self::iso-meta' />
+	<sx:configureAsStructure selector='self::nat-meta' />
+	<sx:configureAsStructure selector='self::std-doc-meta' />
+	<sx:configureAsStructure selector='self::std-meta' />
+	<sx:configureAsStructure selector='self::table-wrap-group' />
+	<sx:configureAsStructure selector='self::def' />
+	<sx:configureAsStructure selector='self::tbx:termEntry' />
+	<sx:configureAsStructure selector='self::tbx:langSet' />
+
+	<sx:configureAsFrame selector='self::annex-type' />
+	<sx:configureAsFrame selector='self::ref-list' />
+	<sx:configureAsFrame selector='self::ref' />
+	<sx:configureAsFrame selector='self::disp-quote' />
+	<sx:configureAsFrame selector='self::boxed-text' />
+	<sx:configureAsFrame selector='self::fig' />
+	<sx:configureAsFrame selector='self::fig-group' />
+	<sx:configureAsFrame selector='self::non-normative-example' />
+	<sx:configureAsFrame selector='self::non-normative-note' />
+	<sx:configureAsFrame selector='self::disp-formula' />
+	<sx:configureAsFrame selector='self::table-wrap' />
+	<sx:configureAsFrame selector='self::table-wrap-foot' />
+	<sx:configureAsFrame selector='self::array' />
+	<sx:configureAsFrame selector='self::def-list' />
+	<sx:configureAsFrame selector='self::tbx:tig' />
+	<sx:configureAsFrame selector='self::caption' />
+	<sx:configureAsFrame selector='self::title-wrap' />
+
+	<sx:configureAsFrameWithBlock selector='self::attrib' />
+	<sx:configureAsFrameWithBlock selector='self::attrib[@specific-use="source"]' />
+	<sx:configureAsFrameWithBlock selector='self::long-desc' />
+	<sx:configureAsFrameWithBlock selector='self::def-head' />
+	<sx:configureAsFrameWithBlock selector='self::term-head' />
+
+	<sx:configureAsFrameWithBreakableBlock selector="self::code" />
+
+	<sx:configureAsInlineFrame selector='self::article-title' />
+	<sx:configureAsInlineFrame selector='self::mixed-citation' />
+	<sx:configureAsInlineFrame selector='self::inline-formula' />
+	<sx:configureAsInlineFrame selector='self::sans-serif' />
+	<sx:configureAsInlineFrame selector='self::fixed-case' />
+	<sx:configureAsInlineFrame selector='self::roman' />
+	<sx:configureAsInlineFrame selector='self::email' />
+	<sx:configureAsInlineFrame selector='self::std-ref' />
+	<sx:configureAsInlineFrame selector='self::uri' />
+	<sx:configureAsInlineFrame selector='self::inline-code' />
+
+	<sx:configureAsInlineImage selector="self::inline-graphic" />
+
+	<sx:configureAsInlineStructure selector='self::styled-content' />
+	<sx:configureAsInlineStructure selector='self::std' />
+
+	<sx:configureAsBlock selector='self::mixed-citation[parent::ref]'/>
+	<sx:configureAsBlock selector='self::p'/>
+	<sx:configureAsBlock selector='self::term'/>
+	<sx:configureAsBlock selector='self::full'/>
+	<sx:configureAsBlock selector='self::compl'/>
+	<sx:configureAsBlock selector='self::main'/>
+	<sx:configureAsBlock selector='self::intro'/>
+
+	<sx:configureAsListElements>
+		<sx:list nodeName="list" />
+		<sx:item nodeName="list-item" />
+		<sx:paragraph nodeName="p" />
+	</sx:configureAsListElements>
+
+	<sx:configureAsXhtmlTableElements />
+
+	<sx:configureAsImage selector="self::graphic[parent::fig]" />
+
+	<sx:configureAsTitleFrame selector='self::label[parent::array]' />
+	<sx:configureAsTitleFrame selector='self::tbx:term' />
+	<sx:configureAsTitleFrame selector='self::title' />
+	<sx:configureAsTitleFrame selector='self::subtitle' />
+
+	<sx:configureAsInlineLink selector="self::ext-link" />
+	<sx:configureAsInlineLink selector="self::xref" />
+
+	<sx:configureAsInlineFormatting selector="self::bold" />
+	<sx:configureAsInlineFormatting selector="self::italic" />
+	<sx:configureAsInlineFormatting selector="self::monospace" />
+	<sx:configureAsInlineFormatting selector="self::overline" />
+	<sx:configureAsInlineFormatting selector="self::sc" />
+	<sx:configureAsInlineFormatting selector="self::strike" />
+	<sx:configureAsInlineFormatting selector="self::sub" />
+	<sx:configureAsInlineFormatting selector="self::sup" />
+	<sx:configureAsInlineFormatting selector="self::underline" />
+
+	<sx:configureAsInlineObject selector="self::xref[@ref-type='fn' or @ref-type='table-fn' or @ref-type='bibr' or @ref-type='sec' or @ref-type='app' or @ref-type='disp-formula'or @ref-type='fig' or @ref-type='table' or @ref-type='list']" />
+
+	<sx:configureAsMathMlContainer selector="self::mml:math" />
+	<sx:configureAsInlineMathMlContainer selector="self::mml:math[parent::inline-formula]" />
+
+	<sx:configureAsOutOfOrderStructure selector='self::caption[parent::fig or parent::fig-group]' />
+	<sx:configureAsOutOfOrderStructure selector='self::tbx:source' />
+	<sx:configureAsOutOfOrderStructure selector='self::tbx:note' />
+	<sx:configureAsOutOfOrderStructure selector='self::tbx:example' />
+	<sx:configureAsOutOfOrderStructure selector='self::tbx:definition' />
+	<sx:configureAsOutOfOrderStructure selector='self::tbx:subjectField' />
+
+	<sx:configureAsRemoved selector='self::institution' />
+	<sx:configureAsRemoved selector='self::ack' />
+	<sx:configureAsRemoved selector='self::aff' />
+	<sx:configureAsRemoved selector='self::aff[parent::article-meta]' />
+	<sx:configureAsRemoved selector='self::hr' />
+	<sx:configureAsRemoved selector='self::preformat' />
+	<sx:configureAsRemoved selector='self::notes' />
+	<sx:configureAsRemoved selector='self::body' />
+	<sx:configureAsRemoved selector='self::std-id' />
+	<sx:configureAsRemoved selector='self::alt-text' />
+	<sx:configureAsRemoved selector='self::abstract' />
+	<sx:configureAsRemoved selector='self::editing-instruction' />
+	<sx:configureAsRemoved selector='self::disp-formula-group' />
+	<sx:configureAsRemoved selector='self::index-term' />
+	<sx:configureAsRemoved selector='self::abbrev' />
+	<sx:configureAsRemoved selector='self::label[parent::list-item]' />
+	<sx:configureAsRemoved selector='self::address' />
+	<sx:configureAsRemoved selector='self::addr-line' />
+	<sx:configureAsRemoved selector='self::country' />
+	<sx:configureAsRemoved selector='self::accrediting-organization' />
+	<sx:configureAsRemoved selector='self::aff-alternatives' />
+	<sx:configureAsRemoved selector='self::article-categories' />
+	<sx:configureAsRemoved selector='self::article-id' />
+	<sx:configureAsRemoved selector='self::author-notes' />
+	<sx:configureAsRemoved selector='self::authorization' />
+	<sx:configureAsRemoved selector='self::comm-ref' />
+	<sx:configureAsRemoved selector='self::comm-ref-group' />
+	<sx:configureAsRemoved selector='self::conference' />
+	<sx:configureAsRemoved selector='self::content-language' />
+	<sx:configureAsRemoved selector='self::contrib-group' />
+	<sx:configureAsRemoved selector='self::copyright-holder' />
+	<sx:configureAsRemoved selector='self::copyright-statement' />
+	<sx:configureAsRemoved selector='self::copyright-year' />
+	<sx:configureAsRemoved selector='self::counts' />
+	<sx:configureAsRemoved selector='self::custom-meta-group' />
+	<sx:configureAsRemoved selector='self::doc-ident' />
+	<sx:configureAsRemoved selector='self::doc-number' />
+	<sx:configureAsRemoved selector='self::doc-ref' />
+	<sx:configureAsRemoved selector='self::elocation-id' />
+	<sx:configureAsRemoved selector='self::fpage' />
+	<sx:configureAsRemoved selector='self::funding-group' />
+	<sx:configureAsRemoved selector='self::history' />
+	<sx:configureAsRemoved selector='self::ics' />
+	<sx:configureAsRemoved selector='self::ics-wrap' />
+	<sx:configureAsRemoved selector='self::is-proof' />
+	<sx:configureAsRemoved selector='self::isbn' />
+	<sx:configureAsRemoved selector='self::issue' />
+	<sx:configureAsRemoved selector='self::issue-id' />
+	<sx:configureAsRemoved selector='self::issue-part' />
+	<sx:configureAsRemoved selector='self::issue-sponsor' />
+	<sx:configureAsRemoved selector='self::issue-title' />
+	<sx:configureAsRemoved selector='self::kwd-group' />
+	<sx:configureAsRemoved selector='self::lpage' />
+	<sx:configureAsRemoved selector='self::meta-date' />
+	<sx:configureAsRemoved selector='self::meta-note' />
+	<sx:configureAsRemoved selector='self::page-count' />
+	<sx:configureAsRemoved selector='self::page-range' />
+	<sx:configureAsRemoved selector='self::permissions' />
+	<sx:configureAsRemoved selector='self::product' />
+	<sx:configureAsRemoved selector='self::proj-id' />
+	<sx:configureAsRemoved selector='self::pub-date' />
+	<sx:configureAsRemoved selector='self::related-article' />
+	<sx:configureAsRemoved selector='self::related-object' />
+	<sx:configureAsRemoved selector='self::release-date' />
+	<sx:configureAsRemoved selector='self::release-version' />
+	<sx:configureAsRemoved selector='self::release-version-id' />
+	<sx:configureAsRemoved selector='self::secretariat' />
+	<sx:configureAsRemoved selector='self::self-uri' />
+	<sx:configureAsRemoved selector='self::std-ident' />
+	<sx:configureAsRemoved selector='self::std-org' />
+	<sx:configureAsRemoved selector='self::std-org-group' />
+	<sx:configureAsRemoved selector='self::std-xref' />
+	<sx:configureAsRemoved selector='self::subj-group' />
+	<sx:configureAsRemoved selector='self::supplement' />
+	<sx:configureAsRemoved selector='self::supplementary-material' />
+	<sx:configureAsRemoved selector='self::title-group' />
+	<sx:configureAsRemoved selector='self::trans-abstract' />
+	<sx:configureAsRemoved selector='self::volume' />
+	<sx:configureAsRemoved selector='self::volume-id' />
+	<sx:configureAsRemoved selector='self::volume-issue-group' />
+	<sx:configureAsRemoved selector='self::volume-series' />
+	<sx:configureAsRemoved selector='self::wi-number' />
+	<sx:configureAsRemoved selector='self::email[parent::article-meta]' />
+	<sx:configureAsRemoved selector='self::ext-link[parent::article-meta]' />
+	<sx:configureAsRemoved selector='self::std-id' />
+	<sx:configureAsRemoved selector='self::std-id-group' />
+	<sx:configureAsRemoved selector='self::std-ident' />
+	<sx:configureAsRemoved selector='self::object-id' />
+	<sx:configureAsRemoved selector='self::std-ref[parent::std-doc-meta or parent::nat-meta or parent::std-meta or parent::iso-meta]' />
+	<sx:configureAsRemoved selector='self::suppl-version' />
+	<sx:configureAsRemoved selector='self::uri[parent::article-meta]' />
+	<sx:configureAsRemoved selector='self::label' />
+	<sx:configureAsRemoved selector='self::compl-title-wrap' />
+
+	<sx:configureProperties selector="self::standard" hierarchyChildNodesQuery="child::*[self::as:front-ref or self::as:body-ref or self::back]"/>
+
+	<sx:configureProperties selector="self::as:front-ref" hierarchyContentQuery="fonto:document(@as:href)/front" hierarchyChildNodesQuery="child::as:sec-ref"/>
+
+	<sx:configureProperties selector="self::as:body-ref" hierarchyContentQuery="fonto:document(@as:href)/body" hierarchyChildNodesQuery="child::*[self::as:sec-ref or self::as:term-sec-ref]"/>
+
+	<sx:configureProperties selector="self::as:sec-ref" hierarchyContentQuery="fonto:document(@as:href)/sec" hierarchyChildNodesQuery="child::*[self::as:sec-ref or self::as:term-sec-ref]"/>
+
+	<sx:configureProperties selector="self::as:term-sec-ref" hierarchyContentQuery="fonto:document(@as:href)/term-sec" hierarchyChildNodesQuery="child::as:term-sec-ref"/>
+
+	<sx:configureProperties selector="self::back" hierarchyChildNodesQuery="child::*[self::app-group or self::as:ref-list-ref]"/>
+
+	<sx:configureProperties selector="self::as:ref-list-ref" hierarchyContentQuery="fonto:document(@as:href)/ref-list" hierarchyChildNodesQuery="child::as:ref-list-ref"/>
+
+	<sx:configureProperties selector="self::app-group" hierarchyChildNodesQuery="child::as:app-ref"/>
+
+	<sx:configureProperties selector="self::as:app-ref" hierarchyContentQuery="fonto:document(@as:href)/app" hierarchyChildNodesQuery="child::as:sec-ref"/>
+
+</sx:schemaExperience>

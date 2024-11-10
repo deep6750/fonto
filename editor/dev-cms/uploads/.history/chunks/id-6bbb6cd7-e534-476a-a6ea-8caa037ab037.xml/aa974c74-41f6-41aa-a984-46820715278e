@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<sec id="id-6bbb6cd7-e534-476a-a6ea-8caa037ab037" sec-type="norm-refs" xmlns:as="http://niso-sts-authoring-solution/authoring-schema" xmlns:mml="http://www.w3.org/1998/Math/MathML" xmlns:tbx="urn:iso:std:iso:30042:ed-1" xmlns:xlink="http://www.w3.org/1999/xlink">
+   <title>Normative references</title>
+   <boxed-text>
+      <p>
+         <italic>The Normative references clause is a mandatory element of the text.</italic>
+      </p>
+      <p>
+         <italic>For rules on the drafting of the Normative references, refer to the ISO/IEC Directives, Part 2:2018, Clause 15.</italic>
+      </p>
+      <p>
+         <italic>This clause cannot be deleted. It will be filled in automatically. As you draft your text, you will be asked to confirm whether the references you use are informative or normative. If they are normative, they will appear here. If they are informative, they will appear in the bibliography.</italic>
+      </p>
+   </boxed-text>
+   <p>The following documents are referred to in the text in such a way that some or all of their content constitutes requirements of this document. For dated references, only the edition cited applies. For undated references, the latest edition of the referenced document (including any amendments) applies.</p>
+   <ref-list content-type="norm-refs" id="id-10d8ff71-7876-40d6-942f-b743b1ef3991"><ref id="id-16e3b27f-6431-4bca-964e-93e5c630b6c4"><std><std-id std-id-link-type="urn" std-id-type="dated">iso:pub:std:DIS:69426</std-id><std-ref>ISO 50001:2018</std-ref><title>Energy management systems — Requirements with guidance for use</title></std></ref><ref id="id-1694776a-fb0f-4c0d-a4cf-9d759735cbbb"><std><std-id std-id-link-type="urn" std-id-type="dated">iso:pub:std:FDIS:69426</std-id><std-ref>ISO 50001:2018</std-ref><title>Energy management systems — Requirements with guidance for use</title></std></ref><ref id="id-3bec0aaa-45f1-4be1-9fe4-8de78a4e247f"><std><std-id std-id-link-type="urn" std-id-type="undated">iso:pub:std:DIS:69426</std-id><std-ref>ISO 50001</std-ref><title>Energy management systems — Requirements with guidance for use</title></std></ref><ref id="id-ff6a7a56-c7c3-4d0a-b01d-9279c6f29110"><std><std-id std-id-link-type="urn" std-id-type="dated">iso:pub:std:DIS:69426</std-id><std-ref>ISO 50001:2018</std-ref><title>Energy management systems — Requirements with guidance for use</title></std></ref></ref-list>
+</sec>
